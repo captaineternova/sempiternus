@@ -1,0 +1,111 @@
+.cbb { 
+--gr1:var(--cicon); 
+--gr7:#777; 
+--gr6:#666; 
+--gr9:#999; 
+--gr5:#555; 
+--cfont1: Verdana; 
+--cfont2: Playfair Display; 
+--cfont3: serif; 
+} 
+
+#p39631 .semp-r-content { 
+width: 94em; 
+} 
+
+#p39631 .semp-r-avatar {display: none;} 
+
+.signature_div { 
+visibility: hidden; 
+height: 0px; 
+} 
+
+
+.cbb { 
+--accent: var(--celebridades); 
+--acento: var(--ciudadanos); 
+} 
+
+/*DEGRADADOS y COLORES*/ 
+.cbb h1:before { 
+content: ""; 
+position: absolute; 
+background: linear-gradient(0deg, var(--accent), var(--acento)); 
+z-index: 2; 
+border-radius: 100%; 
+mix-blend-mode: multiply; 
+} 
+
+.cbb h1, .cbb h2, .cbb h2 b { 
+position: relative; 
+} 
+
+.cbb h1:before { 
+width: 180px; 
+height: 180px; 
+left: 402px; 
+top: -192px; 
+padding-right:1px; 
+} 
+
+#n5 p strong, #n4 p b { 
+background: linear-gradient(90deg, var(--accent), var(--acento)); 
+background-clip: text; 
+color: transparent !important; 
+} 
+
+#n5 b, #n5 span i, #n5 h3 { 
+color: var(--gr3); 
+} 
+
+
+
+/*BASE DEL CÓDIGO*/ 
+.cbb {margin:30px;font:12px/12px var(--cfont1);text-align:center;border-bottom:50px solid transparent;} 
+#n4 .imt {width:200px;height:200px;border-radius:100%;filter:grayscale(100%);} 
+.cbb h1 {display:block;font:60px/20px var(--cfont2);margin-top:0px;} 
+.cbb h4 {display:block;font:8px/8px var(--cfont3);margin:-50px auto 5px;text-transform:uppercase;letter-spacing:1.5px;text-align:justify;width:230px;border-left:50px solid transparent;} 
+.cbb h4:before {content:'';display:inline-block;border-right:.5px solid var(--accent);height:30px; position:absolute;margin-left:-10px;} #n1 a, #n2 a, #n4 b, #n4 p, #n5 b, #n5 p {font:10px/10px var(--cfont1);text-transform:uppercase;margin:2px auto;width:250px;display:block;transition:1s;letter-spacing:1px;color:var(--gr7);} 
+.cbb ::-webkit-scrollbar {width: 2px !important;} 
+.cbb ::-webkit-scrollbar-thumb {background: var(--gr9) !important;} 
+.cbb h3 {display:block;font:20px/20px var(--cfont2);margin-top:30px;text-transform:none !important;} 
+.cbb h3 i {font: 10px Arial;letter-spacing: 1px;margin-top: 5px;display:block;color:var(--gr6);} .cbb h3 div {display:inline-block !important;width:120px;} 
+.cbb:hover img {transition:1s;filter: grayscale(0);} 
+.cbb img {transition:1s;filter: grayscale(0.6);} 
+
+/*FEED*/ 
+#n4 p {padding-left: 50px;text-transform: none;letter-spacing: .5px;color: var(--gr9);} 
+#n4 div.mbb img {border-radius: 0;width: 130px !important;height: 130px !important;filter: grayscale(0.6);margin: 5px;display: inline-block;} 
+#n5 h4:before {display:none} 
+#n4 .imt {width:180px;height:180px} 
+#n4 div, #n5 div {text-align:center;} 
+#n4 b {border-bottom: .5px solid;color:var(--gr6);padding-bottom:5px;} 
+#n4 p {padding-left:0;} 
+
+
+/*PUBLICACIONES*/ 
+#n5 div img, #n4 div img {width: 100%;margin: 10px;filter: grayscale(0.4);} 
+#n5 h3 div {width:50px;height:50px;border-radius:100%;display:block;margin:10px;filter:grayscale(100%);background:url('https://i.postimg.cc/q7nbc9yt/Profile-Insta.png');background-size: cover;} #n5 span i {font-size: 15px;margin: 10px 5px;} 
+#n5 p {text-transform: none;letter-spacing: .5px;color: var(--gr9);} #n5 p img {max-width:10px;} 
+#n5 b, #n5 span i, #n5 h3 {color:#555;} 
+#n5 span i:first-of-type {color:var(--accent);} 
+#n5 p strong {font-weight:400;} 
+#n5 {margin:0 90px;} 
+#n5 img {max-width:500px;} 
+
+
+/*CRÉDITO*/ 
+credito { 
+text-align: center; 
+font-size: 10px; 
+margin: 0 auto; 
+display: block; 
+} 
+
+/*EDICION DE AVATARES*/ 
+/*Halloween 2025*/ 
+#p52468 .semp-r-avatar av img {content: url(https://i.postimg.cc/Xq1jbzJP/Avatar-Halloween25.png);} 
+#p52468 .semp-r-c-t-icon img {content: url(https://i.postimg.cc/4y5VCY6j/Mini-Halloween25.png);} 
+/*Navidad 2026*/ 
+#p58671 .semp-r-avatar av img {content: url(https://i.postimg.cc/C1kFn79n/Avatar-XMAX25.png);} 
+#p58671 .semp-r-c-t-icon img {content: url(https://i.postimg.cc/X7WbmVFb/Mini-XMAX2.png);} 
