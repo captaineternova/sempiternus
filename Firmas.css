@@ -1,0 +1,95 @@
+/*VARIABLES DE COLORES*/
+div, p {
+   --rin:#964b73; 
+   --jun:#2d8091;
+   --haru:#a76378 !important;
+   --xian:#b45946 !important;
+}
+
+/*TAPARRABO DE POST*/ 
+eternova div {display:block;margin:2em;text-align:justify;font-size: 1.1rem;}
+eternova div i {color: var(--accent)}
+eternova sprd {color:var(--accent);display:block;margin:10px auto; content:"·✦·";text-align:center;font-size:12px;}
+eternova ttl {font-weight: bolder;display: block;color: var(--accent);text-align: right;margin-bottom: 10px;font-size: 1.1rem;}
+
+
+/*HYUN*/.celebridades eternova sprd:before {content:"·⋆ ʚ☆ɞ ⋆·";}
+/*YUKI*/.sami eternova sprd:before {content:"· ⁎ ✦ ⁎ ·";}
+/*XIAN*/.empresarios eternova sprd:before {content:"·⬩ ✧ ⬩·";}
+/*RICHIE*/.ciudadanos eternova sprd:before {content:"—·⋆ ✦ ⋆·—";}
+/*HARU*/.sanidad eternova sprd:before {content:"·✧ ⚞^. .^⚟ ✧·";}
+
+
+/*COLOR HYUN*/.hfb {--acentf:#444e62;}
+/*COLOR YUKI*/.yfb {--acentf:#7a4e66;}
+/*COLOR XIAN*/.wfb {--acentf:#763d1e;}
+
+/*BASE FIRMAS*/
+.hfb, .yfb, .wfb {transform:scale(0.88);width:290px;margin:0 auto;} 
+.hfb div, .yfb div, .wfb div {font:9px/10px Courier New; width:250px;letter-spacing:1px;margin:10px 40px;text-align:right;} 
+#hdi, #yki, #wxi {top: 0;position: absolute;left: 0;opacity:0;transition:1s;} 
+.signature_div:hover #hdi, .signature_div:hover #yki, .signature_div:hover #wxi {transition:1s;opacity:1} 
+.hfb img, .yfb img, .wfb img {width:290px;height:200px;} 
+.hfb a, .hfb b, .yfb a, .yfb b, .wfb a, .wfb b {color:var(--acentf)!important;} 
+
+/*AJUSTES COLORINES*/
+/*YOONIE RIN Y JUN*/
+.yoonie {--accent:var(--sami);}
+.yoonie u {color: var(--rin) !important;border-bottom:none !important;} .yoonie strike, .yoonie s {color: var(--jun);}
+.yoonie u, .yoonie strike, .yoonie s {text-decoration:none!important;font-weight:600!important;border-bottom:none!important}
+
+/*HARU Y YUKI*/
+#yf u {text-decoration:none!important;font-weight:600;color:var(--haru);border-bottom:none!important} 
+
+#yf strong, #yf i strong, #yf strong i {
+    background: linear-gradient(45deg, var(--acentoo), hsl(from var(--acentoo) calc(h + 15) s l)) !important;
+    background-clip: text !important;
+}
+
+/*HYUN*/
+#hd {--accent:var(--celebridades)!important;}
+
+/*AUTOCONCLUSIVOS RICHIE*/
+
+.acm u {color: var(--celebridades) !important;border-bottom:none !important;font-style:italic;} .acm strike {color: var(--ciudadanos);}
+.acm u, .acm strike {text-decoration:none!important;font-weight:400!important;border-bottom:none!important}
+
+/*AYUDAS VISUALES*/
+div#preview .content {
+    padding: 30px;
+}
+
+.sceditor-container.ltr.sourceMode textarea {
+    font-size: 16px !important;
+}
+
+/*SPOILERS EN LAS FIRMAS*/
+
+.hfb dl.codebox, .yfb dl.codebox, .wfb dl.codebox {
+    border: none;
+    background: transparent !important;
+    width: 200px;
+    margin: -15px auto;
+    text-align: center;
+}
+
+.hfb dl.codebox dt, .yfb dl.codebox dt, .wfb dl.codebox dt {
+    color: var(--acentf);
+    letter-spacing: 1px;
+    background: transparent;
+    border-bottom: 1px solid;
+    text-shadow: none;
+    padding-bottom: 2px;
+}
+
+.hfb .codebox img, .yfb .codebox img, .wfb .codebox img {
+    width: 50%;
+    height: auto;
+}
+
+.hfb .spoiler_content, .yfb .spoiler_content, .wfb .spoiler_content {
+    width: 200px;
+    padding: 0;
+    text-align: center;
+    margin: 10px 0;
+}
