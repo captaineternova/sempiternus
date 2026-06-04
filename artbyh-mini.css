@@ -1,0 +1,10 @@
+.cbb {
+--gr1:var(--color-text);
+}
+
+.cbb {margin:30px;font:12px/12px Verdana;text-align:center;border-bottom:50px solid transparent;} 
+.imt {border-radius:100%;filter:grayscale(100%) !important;width:80px;height:80px;margin:10px -15px;} 
+.cbb h1 {display:block;font:20px/25px Playfair Display;margin-top:0px;} 
+.cbb h4 {display:block;font:10px/10px Verdana;margin:-20px auto 5px;letter-spacing:.5px;text-align:center;width:345px;} 
+.cbb h1 i {font: 10px/10px serif;color: var(--gr1);} 
+.cbb h4 img {max-width:10px;}
