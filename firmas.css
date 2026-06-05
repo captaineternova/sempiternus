@@ -639,7 +639,7 @@ cute {
     position: absolute;
     text-align: center;
     margin: 0 auto;
-    bottom: 25px;
+    bottom: 5px;
     width: 100%;
     z-index: 3;
     line-height:20px;
@@ -655,13 +655,6 @@ cute {
    color:var(--bg3);
    text-transform:uppercase;
    font-family: 'Fira Sans';
-   font-size:15px;
-    
-}
-
-.firma-hs h4 i {
-   float:right;
-   display:inline-block;
-   margin-left:5px;
+   font-size:15px; 
 }
 
