@@ -140,7 +140,27 @@ div#preview .content {
 --gr4:var(--ctext);
 --g4:var(--sanidad);
 --g6:var(--pesca);
+--g8:var(--pesca);  
 }
+
+/*HIDE*/
+.post-rl .codebox.hidecode dd i, .post-yn .codebox.hidecode dd i, .post-hs .codebox.hidecode dd i {
+color: var(--accent);
+}
+
+.post-rl .codebox.hidecode dd, .post-yn .codebox.hidecode dd, .post-hs .codebox.hidecode dd {
+line-height: 15px;
+font-family: 'Poppins';
+
+}
+
+.post-rl dl.codebox.hidecode, .post-yn dl.codebox.hidecode, .post-hs dl.codebox.hidecode {
+font-size: 14px;
+margin-top: 65px;
+display: block;
+text-align: justify;
+}
+
 
 /*RICHARD*/
 .post-rl {
