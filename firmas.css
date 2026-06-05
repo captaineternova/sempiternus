@@ -642,14 +642,13 @@ cute {
     bottom: 25px;
     width: 100%;
     z-index: 3;
-    ffont-size:35px;
     line-height:20px;
 }
 
 .firma-hs b {
     color: var(--acentoo);
    -webkit-text-stroke: 1px var(--bg3);
-   font-size:40px;
+   font-size:25px;
 }
 
 .firma-hs b a {
