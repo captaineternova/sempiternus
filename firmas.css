@@ -466,6 +466,19 @@ background-clip: text !important;
     mix-blend-mode: hard-light;
 }
 
+.firma-rl>div:after {
+   background: linear-gradient(-45deg, var(--acentoo), var(--acento), transparent);
+}
+
+.firma-yn>div:after {
+   opacity:0.6;
+}
+
+.firma-hs>div:after {
+   mix-blend-mode: multiply;
+   background: linear-gradient(0deg, var(--acentoo), var(--acento), transparent);
+}
+
 .firma-rl {
     transform: scale(0.9);
     outline: 2px dotted var(--bg3);
