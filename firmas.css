@@ -477,6 +477,7 @@ background-clip: text !important;
 .firma-hs>div:after {
    mix-blend-mode: multiply;
    background: linear-gradient(0deg, var(--acentoo), var(--acento), transparent);
+   transform: rotateX(180deg);
 }
 
 .firma-rl {
@@ -584,6 +585,8 @@ cute {
     z-index: 4;
 }
 
+.day .firma-yn b i, .day .firma-yn b a {color: var(--bg3);]
+
 .firma-yn h4 b {
     color: var(--gr4);
     text-shadow: 1px 1px 5px var(--bg3);
@@ -625,7 +628,7 @@ cute {
     height: 400px;
     display: block;
     margin-left: -80px;
-    bottom: -142px;
+    top: -142px;
     transform: rotate(-18deg);
     position: absolute;
 }
@@ -638,6 +641,7 @@ cute {
     width: 100%;
     z-index: 3;
     ffont-size:25px;
+    line-height:20px;
 }
 
 .firma-hs b {
@@ -654,16 +658,16 @@ cute {
 }
 
 .firma-hs b i {
- text-shadow: 1px 1px 5px var(--bg3);
+   text-shadow: 1px 1px 5px var(--bg3);
    float:right;
    display:inline-block;
    margin-left:5px;
    background: linear-gradient(45deg, var(--acentoo) 45%, var(--acento));
    color: transparent;
    background-clip: text !important;
-    font-size: 35px;
-    border-left: 1px solid var(--acentoo);
-    padding-left: 15px;
-    width: 50px;
+   font-size: 35px;
+   border-left: 1px solid var(--acentoo);
+   padding-left: 15px;
+   width: 50px;
 }
 
