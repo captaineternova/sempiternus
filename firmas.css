@@ -681,3 +681,7 @@ cute {
    font-family: 'Fira Sans';
    font-size:15px; 
 }
+
+.firma-hs b i {
+    font-weight: 600;
+}
