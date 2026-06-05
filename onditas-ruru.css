@@ -28,6 +28,11 @@ padding: 30px;
 font-size: 16px !important;
 }
 
+#reto p, #relas span h5 {
+  font-size:15px !important;
+  line-height:14px !important;
+}
+
 .post-hs .codebox.hidecode dd i {
 color: var(--accent);
 }
