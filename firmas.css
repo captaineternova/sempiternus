@@ -476,8 +476,6 @@ background-clip: text !important;
 
 .firma-hs>div:after {
    mix-blend-mode: multiply;
-   background: linear-gradient(0deg, var(--acentoo), var(--acento));
-   transform: rotateX(180deg);
    opacity:0.3;
 }
 
