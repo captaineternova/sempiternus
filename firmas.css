@@ -425,7 +425,7 @@ background:var(--bg2);
 
 .post-hs:after, .firma-hs:after { background: linear-gradient(90deg, var(--acentoo), var(--acento));} 
 
-.post-hs:after {
+.post-hs:after, .firma-hs:after {
 content: "";
 width: 700px;
 height: 400px;
@@ -447,10 +447,183 @@ background-clip: text !important;
     width: 350px;
     height: 225px;
     margin: 25px auto;
-    background: var(--background-3);
-    border: 2px solid var(--background-3);
-    outline: 1px solid var(--acento);
+    background: var(--bg1);
+    border: 5px solid var(--bg3);
+    outline: 1px solid var(--acentoo);
     position: relative;
     overflow: hidden;
     transition: all 0.4s ease;
 }
+
+.firma-rl>div:after, .firma-yn>div:after, .firma-hs>div:after {
+    content: "";
+    background: linear-gradient(0deg, var(--acentoo), var(--acento), transparent);
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    mix-blend-mode: hard-light;
+}
+
+.firma-rl {
+    transform: scale(0.9);
+    outline: 2px dotted var(--bg3);
+    outline-offset: -20px;
+    border: 10px solid var(--bg3);
+}
+
+.firma-rl>div {
+    width: 60%;
+    height: 100%;
+    float: right;
+}
+
+.firma-rl:after {
+    content: "";
+    width: 800px;
+    height: 350px;
+    display: block;
+    margin-top: 27px;
+    margin-left: -35px;
+    margin-bottom: -150px;
+    transform: rotate(10deg);
+    background: linear-gradient(90deg, var(--acentoo), var(--acento));
+}
+
+.firma-rl h4 {
+    font: 12px Noto Sans;
+    text-transform: uppercase;
+    position: absolute;
+    left: 5px;
+    padding: 10px;
+    background: var(--bg3);
+    width: 110px;
+    margin: 5px auto;
+    z-index: 2;
+    text-align: center;
+    height: stretch;
+}
+
+.firma-yn {
+    outline: 1px dashed var(--acento);
+    outline-offset: -10px;
+    border: none;
+}
+
+cute i {
+    font-weight: bold;
+    color: var(--accent);
+}
+
+cute {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: -18px;
+}
+
+.firma-yn>div {
+    width: 100%;
+    height: 100%;
+}
+
+.firma-yn:after {
+    top: -18px;
+    z-index: 3;
+    position: absolute;
+    transform: rotateY(180deg);
+    width: 415px;
+}
+
+.firma-rl h4 strong {
+    color: var(--acentoo);
+}
+
+.firma-rl u {
+    border-color: var(--acentoo);
+}
+
+.firma-rl h4 i:first-of-type {
+    background: linear-gradient(45deg, var(--acentoo) 45%, var(--acento));
+    color: transparent;
+    background-clip: text !important;
+    display: block;
+    font-size: 35px;
+    border-bottom: 1px solid var(--acentoo);
+    padding-bottom: 15px;
+    margin: 10px auto;
+    width: 50px;
+}
+
+.firma-yn h4 {
+    position: absolute;
+    width: 100%;
+    text-align: right;
+    padding: 20px;
+    right: 0;
+    font-family: 'Noto Sans';
+    text-transform: uppercase;
+    font-size: 25px;
+    color: var(--bg3);
+    bottom: -5px;
+    z-index: 4;
+}
+
+.firma-yn h4 b {
+    color: var(--gr4);
+    text-shadow: 1px 1px 5px var(--bg3);
+}
+
+.firma-yn h4 b i {
+    -webkit-text-stroke: 1px var(--bg3);
+    color: transparent !important;
+    text-shadow: none !important;
+}
+
+.firma-yn b a {
+    font-family: 'Mrs Saint Delafield';
+    text-transform: lowercase;
+    font-size: 42px;
+    color: var(--ctext);
+    font-weight: 100;
+}
+
+.firma-yn h4 i:last-of-type {
+    color: var(--acento);
+}
+
+.firma-hs>div {
+    width: 100%;
+    height: 100%;
+    outline: 1px solid var(--acentoo);
+    outline-offset: -10px;
+    transition: 1s;
+}
+
+.firma-hs {
+    border: 10px solid var(--bg2);
+}
+
+.firma-hs:after {
+    content: "";
+    width: 700px;
+    height: 400px;
+    display: block;
+    margin-left: -80px;
+    bottom: -142px;
+    transform: rotate(-18deg);
+    position: absolute;
+}
+
+.firma-hs h4 {
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    bottom: 25px;
+    width: 100%;
+    z-index: 3;
+}
+
+
