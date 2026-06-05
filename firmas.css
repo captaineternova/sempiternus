@@ -121,7 +121,7 @@ div#preview .content {
 --g2:var(--ciudadanos);
 }
 
-.post-yn, .firma-yn {
+.post-yn, .firma-yn, .post-hs, .firma-hs {
 --haru:var(--acc-1);
 --bg1:var(--bckg-1);
 --bg2:var(--bckg-2);
@@ -132,18 +132,6 @@ div#preview .content {
 --gr4:var(--ctext);
 --g3:var(--celebridades);
 --g10:var(--sami);
-}
-
-.post-hs, .firma-hs {
---haru:var(--acc-1);
---xian:var(--acc-1);
---bg1:var(--bckg-1);
---bg2:var(--bckg-2);
---bg3:var(--bckg-3);
---gr1:var(--color-text);
---gr2:var(--cicon);
---gr3:var(--brd-c);
---gr4:var(--ctext);
 --g4:var(--sanidad);
 --g6:var(--pesca);
 --g8:var(--pesca);  
@@ -178,7 +166,7 @@ position:relative;
 margin: 10px auto;
 overflow:hidden;
 border-radius:20px;
-border:solid 1px var(--gr2);
+border:solid 1px var(--bg2);
 padding:20px;
 font:10px/10px Noto Sans;} 
 
@@ -687,10 +675,10 @@ cute {
    text-transform:uppercase;
    font-family: 'Fira Sans';
    font-size:15px;
-   -webkit-text-stroke: none !important;
+   -webkit-text-stroke: 0 !important;
 }
 
 .firma-hs b i {
     font-weight: 600;
-    -webkit-text-stroke: none !important;
+    -webkit-text-stroke: 0 !important;
 }
