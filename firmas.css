@@ -585,7 +585,7 @@ cute {
     z-index: 4;
 }
 
-.day .firma-yn b i, .day .firma-yn b a {
+.day .firma-yn b, .day .firma-yn b a {
    color: var(--bg3);
 }
 
@@ -630,7 +630,7 @@ cute {
     height: 400px;
     display: block;
     margin-left: -80px;
-    top: -142px;
+    top: -42px;
     transform: rotate(-18deg);
     position: absolute;
 }
@@ -642,34 +642,27 @@ cute {
     bottom: 25px;
     width: 100%;
     z-index: 3;
-    ffont-size:25px;
+    ffont-size:35px;
     line-height:20px;
 }
 
 .firma-hs b {
     color: var(--acentoo);
+   -webkit-text-stroke: 1px var(--bg3);
+   font-size:40px;
 }
 
 .firma-hs b a {
-    color: transparent;
-   -webkit-text-stroke: 1px var(--bg3);
+   color:var(--bg3);
    text-transform:uppercase;
    font-family: 'Fira Sans';
    font-size:15px;
     
 }
 
-.firma-hs b i {
-   text-shadow: 1px 1px 5px var(--bg3);
+.firma-hs h4 i {
    float:right;
    display:inline-block;
    margin-left:5px;
-   background: linear-gradient(45deg, var(--acentoo) 45%, var(--acento));
-   color: transparent;
-   background-clip: text !important;
-   font-size: 35px;
-   border-left: 1px solid var(--acentoo);
-   padding-left: 15px;
-   width: 50px;
 }
 
