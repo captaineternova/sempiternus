@@ -609,7 +609,7 @@ cute {
 }
 
 .firma-yn h4 b {
-    color: var(--gr4);
+    color: var(--gr4) !important;
     text-shadow: 1px 1px 5px var(--bg3);
 }
 
@@ -623,7 +623,7 @@ cute {
     font-family: 'Mrs Saint Delafield';
     text-transform: lowercase;
     font-size: 42px;
-    color: var(--ctext);
+    color: var(--gr4);
     font-weight: 100;
 }
 
@@ -666,12 +666,12 @@ cute {
 
 .firma-hs b {
     color: var(--acentoo);
-   -webkit-text-stroke: 1px var(--bg3);
+   -webkit-text-stroke: 1px var(--gr4);
    font-size:25px;
 }
 
 .firma-hs b a {
-   color:var(--bg3);
+   color:var(--gr4);
    text-transform:uppercase;
    font-family: 'Fira Sans';
    font-size:15px; 
