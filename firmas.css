@@ -611,7 +611,7 @@ cute {
 }
 
 .day .firma-yn b, .day .firma-yn b a, .day .firma-hs b a {
-   color: var(--bg3);
+   color: var(--bg3) !important;
 }
 
 .day .firma-hs b {
@@ -676,18 +676,21 @@ cute {
 }
 
 .firma-hs b {
-    color: var(--acentoo);
-   -webkit-text-stroke: 1px var(--gr4);
-   font-size:25px;
+    color: var(--acentoo) !important;
+    -webkit-text-stroke: .5px var(--bg3);
+    font-size: 20px;
+    font-family: 'Noto Sans';
 }
 
 .firma-hs b a {
    color:var(--gr4);
    text-transform:uppercase;
    font-family: 'Fira Sans';
-   font-size:15px; 
+   font-size:15px;
+   -webkit-text-stroke: none !important;
 }
 
 .firma-hs b i {
     font-weight: 600;
+    -webkit-text-stroke: none !important;
 }
