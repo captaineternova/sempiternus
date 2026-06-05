@@ -44,6 +44,10 @@ margin-top: 65px;
 display: block;
 text-align: justify;
 }
+#reto p, #relas span h5 {
+  font-size:15px !important;
+  line-height:14px !important;
+}
 
 /*BITACORA*/
 
