@@ -585,7 +585,9 @@ cute {
     z-index: 4;
 }
 
-.day .firma-yn b i, .day .firma-yn b a {color: var(--bg3);]
+.day .firma-yn b i, .day .firma-yn b a {
+   color: var(--bg3);
+}
 
 .firma-yn h4 b {
     color: var(--gr4);
