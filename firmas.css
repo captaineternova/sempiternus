@@ -624,6 +624,33 @@ cute {
     bottom: 25px;
     width: 100%;
     z-index: 3;
+    ffont-size:25px;
 }
 
+.firma-hs b {
+    color: var(--acentoo);
+}
+
+.firma-hs b a {
+    color: transparent;
+   -webkit-text-stroke: 1px var(--bg3);
+   text-transform:uppercase;
+   font-family: 'Fira Sans';
+   font-size:15px;
+    
+}
+
+.firma-hs b i {
+ text-shadow: 1px 1px 5px var(--bg3);
+   float:right;
+   display:inline-block;
+   margin-left:5px;
+   background: linear-gradient(45deg, var(--acentoo) 45%, var(--acento));
+   color: transparent;
+   background-clip: text !important;
+    font-size: 35px;
+    border-left: 1px solid var(--acentoo);
+    padding-left: 15px;
+    width: 50px;
+}
 
