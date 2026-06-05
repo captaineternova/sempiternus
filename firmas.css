@@ -604,9 +604,14 @@ cute {
     z-index: 4;
 }
 
-.day .firma-yn b, .day .firma-yn b a {
+.day .firma-yn b, .day .firma-yn b a, .day .firma-hs b a {
    color: var(--bg3);
 }
+
+.day .firma-hs b {
+   -webkit-text-stroke: 1px var(--bg3) !important;
+}
+
 
 .firma-yn h4 b {
     color: var(--gr4) !important;
