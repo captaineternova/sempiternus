@@ -907,12 +907,13 @@ opacity:0.85;
 font-size: 15px;
 line-height: 12px;
 display: block;
-width: 245px !important;
+width: 245px;
+flex: 1 1 auto;
 position: relative;
 height: 30px;
 border-radius: 10px;
 padding: 22px 15px 22px;
-/*border: 1px solid var(--gr3);*/
+border: 1px dashed var(--gr3);
 }
 
 #crono p a i, #crono p a b {
