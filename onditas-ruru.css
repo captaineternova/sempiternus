@@ -111,7 +111,6 @@ font: 13px/12px Poppins;
 background: var(--gr1) !important;
 background-clip: text !important;
 display: block;
-margin-bottom: -5px;
 }
 
 #bit a br {display:none;}
