@@ -94,7 +94,7 @@ flex-wrap: wrap;
 
 #bit p a {
 font-size: 15px;
-line-height: 13px;
+line-height: 15px;
 max-width: 300px !important;
 position: relative;
 height: auto;
@@ -107,7 +107,7 @@ flex: 1 1 auto;
 #bit p a:last-of-type { max-width:600px !important; }
 
 #bit a i {
-font: 13px/12px Poppins;
+font: 13px/13px Poppins;
 background: var(--gr1) !important;
 background-clip: text !important;
 display: block;
