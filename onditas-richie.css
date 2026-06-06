@@ -104,8 +104,6 @@ border: 1px dotted var(--gr3);
 /*flex: 1 1 auto;*/
 }
 
-/*#bit p a:last-of-type { width:605px !important; }*/
-
 #bit a i {
 font: 13px/13px Poppins;
 background: var(--gr1) !important;
