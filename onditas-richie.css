@@ -101,12 +101,10 @@ height: auto;
 border-radius: 10px;
 padding: 22px 15px 22px;
 border: 1px dotted var(--gr3);
-flex: 1 1 auto;
+/*flex: 1 1 auto;*/
 }
 
-#bit p a:last-of-type { 
-  width:605px !important;
-}
+/*#bit p a:last-of-type { width:605px !important; }*/
 
 #bit a i {
 font: 13px/13px Poppins;
@@ -978,7 +976,7 @@ font-size: 15px;
 line-height: 12px;
 display: block;
 width: 260px;
-flex: 1 1 auto;
+/*flex: 1 1 auto;*/
 position: relative;
 height: 30px;
 border-radius: 10px;
