@@ -23,8 +23,8 @@
 --gr2:var(--cicon);
 --gr3:var(--brd-c);
 --gr4:var(--ctext);
---acento:var(--sanidad) !important;
---acentoo:var(--pesca) !important;
+--acento:var(--sanidad);
+--acentoo:var(--pesca);
 }
 
 .semp-r-c-t-icon img:nth-of-type(2), .semp-r-c-t-icon img:nth-of-type(3), .semp-r-c-t-icon img:nth-of-type(4), .semp-r-c-t-icon img:nth-of-type(5) {
