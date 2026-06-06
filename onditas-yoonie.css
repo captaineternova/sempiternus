@@ -20,8 +20,8 @@
 --gr2:var(--cicon);
 --gr3:var(--brd-c);
 --gr4:var(--ctext);
---g3:var(--celebridades);
---g10:var(--sami);
+--acento:var(--celebridades) !important;
+--acentoo:var(--sami) !important;
 --rin:#964b73; 
 --jun:#2d8091;
 
