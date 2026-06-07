@@ -62,7 +62,6 @@ eternova ttl {font-weight: bolder;display: block;color: var(--accent);text-align
 #hd {--accent:var(--celebridades)!important;}
 
 /*AUTOCONCLUSIVOS RICHIE*/
-
 .acm u {color: var(--celebridades) !important;border-bottom:none !important;font-style:italic;} .acm strike {color: var(--ciudadanos);}
 .acm u, .acm strike {text-decoration:none!important;font-weight:400!important;border-bottom:none!important}
 
@@ -74,6 +73,8 @@ div#preview .content {
 .sceditor-container.ltr.sourceMode textarea {
     font-size: 16px !important;
 }
+
+@import url('https://mackdoneeloites.github.io/sempicss/sempipost.css');
 
 /*SPOILERS EN LAS FIRMAS*/
 .hfb dl.codebox, .yfb dl.codebox, .wfb dl.codebox {
