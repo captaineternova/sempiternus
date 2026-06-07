@@ -1,6 +1,4 @@
 @import url('https://mackdoneeloites.github.io/sempicss/sempipost.css');
-
-/*FUENTES*/
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
@@ -109,7 +107,6 @@ div#preview .content {
 /*POST DE ONDAS*/
 /*COLORES*/
 .post-rl, .firma-rl {
---haru:var(--acc-1);
 --bg1:var(--bckg-1);
 --bg2:var(--bckg-2);
 --bg3:var(--bckg-3);
@@ -124,7 +121,6 @@ div#preview .content {
 }
 
 .post-yn, .firma-yn, .post-hs, .firma-hs {
---haru:var(--acc-1);
 --bg1:var(--bckg-1);
 --bg2:var(--bckg-2);
 --bg3:var(--bckg-3);
