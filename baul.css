@@ -643,7 +643,7 @@ transition: 1s;
 }
 
 #ok s { 
-text-decoration: line-through;
+text-decoration: line-through !important;
 text-decoration-color: var(--accep); 
 } 
 
