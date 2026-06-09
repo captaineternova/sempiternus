@@ -638,7 +638,12 @@ color: transparent !important;
 transition: 1s; 
 } 
 
+#lista p s {
+  text-decoration: none;
+}
+
 #ok s { 
+text-decoration: line-through;
 text-decoration-color: var(--accep); 
 } 
 
