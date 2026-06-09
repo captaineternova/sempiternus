@@ -666,4 +666,4 @@ gap: 10px 5px;
 border-color: var(--gr3) !important; 
 } 
 
-#ok b { texr-decoration: none !important; }
+#ok b, #ok a { texr-decoration: none !important; }
