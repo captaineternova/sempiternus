@@ -638,10 +638,6 @@ color: transparent !important;
 transition: 1s; 
 } 
 
-#lista p s {
-  text-decoration: none;
-}
-
 #ok s { 
 text-decoration: line-through !important;
 text-decoration-color: var(--accep); 
