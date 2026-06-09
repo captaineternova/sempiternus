@@ -638,8 +638,7 @@ color: transparent !important;
 transition: 1s; 
 } 
 
-#ok { 
-text-decoration: line-through; 
+#ok s { 
 text-decoration-color: var(--accep); 
 } 
 
