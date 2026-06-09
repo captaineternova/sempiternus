@@ -665,3 +665,5 @@ gap: 10px 5px;
 #lista:hover p b { 
 border-color: var(--gr3) !important; 
 } 
+
+#ok b { texr-decoration: none !important; }
