@@ -39,9 +39,9 @@ eternova ttl {font-weight: bolder;display: block;color: var(--accent);text-align
 /*BASE FIRMAS*/
 .hfb, .yfb, .wfb {transform:scale(0.88);width:290px;margin:0 auto;} 
 .hfb div, .yfb div, .wfb div {font:9px/10px Courier New; width:250px;letter-spacing:1px;margin:10px 40px;} 
-.hbi div {text-align:right;}
-.ybi div {text-align:left;}
-.wbi div {text-align:center;}
+.hfb div {text-align:right;}
+.yfb div {text-align:left;}
+.wfb div {text-align:center;}
 #hdi, #yki, #wxi {top: 0;position: absolute;left: 0;opacity:0;transition:1s;} 
 .signature_div:hover #hdi, .signature_div:hover #yki, .signature_div:hover #wxi {transition:1s;opacity:1} 
 .hfb img, .yfb img, .wfb img {width:290px;height:200px;} 
