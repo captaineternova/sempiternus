@@ -21,7 +21,7 @@ div, p {
 /*TAPARRABO DE POST*/ 
 eternova div {display:block;margin:2em;text-align:justify;font-size: 1.1rem;}
 eternova div i {color: var(--accent)}
-eternova sprd {color:var(--accent);display:block;margin:10px auto -10px;text-align:center;font-size:12px;}
+eternova sprd {color:var(--accent);display:block;margin:10px auto;text-align:center;font-size:12px;}
 eternova ttl {font-weight: bolder;display: block;color: var(--accent);text-align: right;margin-bottom: 10px;font-size: 1.1rem;}
 
 
