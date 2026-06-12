@@ -68,7 +68,7 @@ clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70
 border-radius: 0% !important; 
 } 
 
-.yf .mbb img, .yf#n5 img, .yf b img {clip-path:none !important;} 
+.yf .mbb img, .yf#n5 img, .yf b img, .yf .medallero img {clip-path:none !important;} 
 
 .yf .rbb img { 
 clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%) !important; 
@@ -89,7 +89,7 @@ clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80
 border-radius: 0% !important; 
 } 
 
-.wx .mbb img, .wx#n5 img, .wx b img {clip-path:none !important;} 
+.wx .mbb img, .wx#n5 img, .wx b img, .wx .medallero img {clip-path:none !important;} 
 
 .wx .rbb img { 
 clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%) !important; 
@@ -669,14 +669,10 @@ border-color: var(--gr3) !important;
 
 /*MEDALLERÍA PERSONAL*/
 .med-au img {border-radius: 0;width: 50px;height: 50px;margin: 5px;display: inline-block;} 
-.medallero .imt {width:180px;height:180px} .medallero div {text-align:center;} 
-.medallero b {border-bottom: .5px solid;color:#666;padding-bottom:5px;} .medallero p {padding-left:0;}
+.medallero .imt {width:180px;height:180px}
 .medallero div img {max-width: 100% !important;margin: 10px;max-height: 100% !important;} 
-.medallero p {padding-left: 50px;text-transform: none;letter-spacing: .25px;color: #999;} 
-.medallero .imt {width:180px;height:180px} 
-.medallero div {text-align:center;} 
-.medallero#n4 b {border-bottom: .5px solid;color:#666;padding-bottom:5px;} 
-.medallero p {padding-left:0;} .medallero span p {width: 100px;}
+.medallero p {padding-left: 50px;text-transform: none;letter-spacing: .25px;color: #999;}   
+.medallero span p {width: 100px;}
 
 .med-au span img, .med-au b img {transition:1s;filter: grayscale(0.9) !important;} 
 .med-au span:hover img, .med-au b:hover img {transition:1s;filter: grayscale(0) !important;} 
@@ -688,19 +684,24 @@ border-color: var(--gr3) !important;
     display: inline-block;
     font-size: 100px;
     width: 150px;
-    height: 180px;
+    height: 100px;
     float: left;
     margin-top: 50px;
     line-height: 70px;
     opacity: 0.5;
 }
 
-.med-au {text-align:center;}
+.med-au {
+    text-align: center;
+    margin: 0 10%;
+}
+
 .med-au br {display:none;}
 
 .med-au span {
     display: inline-block;
     width: 100px;
+    margin: 10px;
 }
 
 .medallero p {
