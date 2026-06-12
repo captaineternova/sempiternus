@@ -34,12 +34,12 @@
 display: none; 
 } 
 
-.yf, .yf .statis, .yf .bit, .yf .crono { 
+.yf, .yf .statis, .yf .bit, .yf .crono, .yf .medallero { 
 --accep: var(--sami) !important; 
 --acento: var(--celebridades) !important; 
 } 
 
-.wx, .wx .statis, .wx .bit, .wx .crono { 
+.wx, .wx .statis, .wx .bit, .wx .crono, .wx .medallero { 
 --accep: var(--empresarios) !important; 
 --acento: var(--xian) !important; 
 } 
@@ -58,7 +58,7 @@ color: transparent !important;}
 
 
 /*VARIANTE YUKI*/ 
-.yf img, .yf .rbb b:before, .yf h1:before, .yf .datab:after, .yf#n1:before { 
+.yf img, .yf .rbb b:before, .yf h1:before, .yf .datab:after, .yf#n1:before, .yf .medallero .imit { 
 clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%); 
 border-radius: 0% !important; 
 } 
@@ -79,7 +79,7 @@ background-clip: text !important;
 
 /*VARIANTE WUXIAN*/ 
 
-.wx img, .wx .rbb b:before, .wx h1:before, .wx .datab:after, .wx#n1:before { 
+.wx img, .wx .rbb b:before, .wx h1:before, .wx .datab:after, .wx#n1:before, .wx .medallero .imit { 
 clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%) !important; 
 border-radius: 0% !important; 
 } 
