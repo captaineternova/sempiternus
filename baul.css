@@ -59,7 +59,7 @@ color: transparent !important;}
 
 /*VARIANTE YUKI*/ 
 .yf img, .yf .rbb b:before, .yf h1:before, .yf .datab:after, .yf#n1:before, .yf .medallero .imt { 
-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%); 
+clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%) !important; 
 border-radius: 0% !important; 
 } 
 
