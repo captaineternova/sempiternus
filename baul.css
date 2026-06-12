@@ -679,7 +679,6 @@ border-color: var(--gr3) !important;
     display: inline-block;
     font-size: 100px;
     width: 150px;
-    height: 100px;
     float: left;
     margin-top: 50px;
     line-height: 70px;
@@ -687,8 +686,8 @@ border-color: var(--gr3) !important;
 }
 
 .med-au {
-    text-align: center;
     margin: 0 10%;
+    display: flex;
 }
 
 .med-au br {display:none;}
@@ -704,4 +703,8 @@ border-color: var(--gr3) !important;
     width: 100px !important;
     margin: 0 auto !important;
     display: block !important;
+}
+
+.med-au div {
+    width: 80%;
 }
