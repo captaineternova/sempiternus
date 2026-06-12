@@ -674,7 +674,7 @@ border-color: var(--gr3) !important;
 .medallero p {padding-left: 50px;text-transform: none;letter-spacing: .25px;color: #999;}   
 .medallero span p {width: 100px;}
 
-.med-au span img, .med-au b img {transition:1s;filter: grayscale(0.9) !important;} 
+.med-au span img, .med-au b img {transition:1s;filter: grayscale(0.6) !important;} 
 .med-au span:hover img, .med-au b:hover img {transition:1s;filter: grayscale(0) !important;} 
 #blur {filter:blur(5px) grayscale(1) !important;}
 
