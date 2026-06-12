@@ -105,7 +105,10 @@ padding: 0;
 margin-left: -40px !important; 
 } 
 
-.wx h1:before {padding-right:0 !important;} 
+.wx h1:before {
+    padding-right: 1px !important;
+    margin-left: 0px !important;
+}
 
 .wx#n2 h1:before { 
 margin-left: -1px !important; 
@@ -119,6 +122,11 @@ width: 150px;
 .wx #n3 h1:before { 
 margin-left: -1px !important; 
 } 
+
+.wx .medallero h1:before {
+    padding-right: 1px !important;
+    margin-left: -40px !important;
+}
 
 /*OCULTAR ELEMENTOS*/ 
 .signature_div { 
@@ -680,7 +688,7 @@ border-color: var(--gr3) !important;
     font-size: 100px;
     width: 150px;
     float: left;
-    margin-top: 50px;
+    margin-top: 10px;
     line-height: 70px;
     opacity: 0.5;
 }
