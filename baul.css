@@ -30,11 +30,6 @@
 
 } 
 
-#p75303, #p75305 {height:0px;display:none;} /*POST XIAN OCULTOS*/ 
-
-#p73432 {height:0px;display:none;} /*POST YUKI OCULTO*/ 
-
-
 #p73608 .fa_like_list, #p73423 .fa_like_list, #p72383 .fa_like_list { 
 display: none; 
 } 
