@@ -185,7 +185,7 @@ height: 120px;
 .cbb h1:before { 
 width: 100px; 
 height: 100px; 
-left: 443px; 
+left: 442px; 
 top: -124px; 
 padding-right: 1px; 
 } 
@@ -201,7 +201,7 @@ margin-top: 52px;
 width: 100px; 
 height: 100px; 
 margin-top: 12px; 
-margin-left: 0px; 
+margin-left: -1px; 
 padding-right: 1px; 
 } 
 
