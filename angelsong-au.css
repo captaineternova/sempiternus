@@ -199,12 +199,12 @@ font-family: 'FontAwesome' !important;
 } 
 
 .sem-header { 
-background-image: url(https://i.postimg.cc/GmGF5Sfd/ASHed.png); 
+background-image: url('https://i.postimg.cc/GmGF5Sfd/ASHed.png') !important; 
 } 
 
 body, body.night { 
 margin-top: 0 !important; 
-background: url(https://i.postimg.cc/FRBkRj68/ASFondo.png), var(--bckg-1); 
+background: url('https://i.postimg.cc/FRBkRj68/ASFondo.png'), var(--bckg-1); 
 background-attachment: fixed; 
 background-position: center; 
 background-size: cover; 
