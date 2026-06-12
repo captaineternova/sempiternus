@@ -500,7 +500,7 @@ transition:1s;
 .dtex p {break-inside: avoid;text-align:justify;} 
 .dtex:hover b {letter-spacing:1px!important;color:var(--gr5) !important;} 
 
-#n4 p {min-width:300px;} 
+#n4 p {width:300px;} 
 
 .dtex p { 
 width: 420px !important; 
@@ -683,7 +683,17 @@ border-color: var(--gr3) !important;
 #blur {filter:blur(5px) grayscale(1) !important;}
 
 .med-au i:before {font-size: 50px !important;position: relative;} 
-.med-au i {font-family: 'FontAwesome';display: inline-block;font-size: 100px;width: 150px;height: 180px;float: left;margin-top: 50px;line-height: 70px;opacity: 0.5;}
+.med-au i {
+    font-family: 'FontAwesome';
+    display: inline-block;
+    font-size: 100px;
+    width: 150px;
+    height: 180px;
+    float: left;
+    margin-top: 50px;
+    line-height: 70px;
+    opacity: 0.5;
+}
 
 .med-au {text-align:center;}
 .med-au br {display:none;}
@@ -691,4 +701,11 @@ border-color: var(--gr3) !important;
 .med-au span {
     display: inline-block;
     width: 100px;
+}
+
+.medallero p {
+    padding-left: 0 !important;
+    width: 100px !important;
+    margin: 0 auto !important;
+    display: block !important;
 }
