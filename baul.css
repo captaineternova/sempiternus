@@ -687,3 +687,8 @@ border-color: var(--gr3) !important;
 
 .med-au {text-align:center;}
 .med-au br {display:none;}
+
+.med-au span {
+    display: inline-block;
+    width: 100px;
+}
