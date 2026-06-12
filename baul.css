@@ -34,7 +34,7 @@
 
 #p73432 {height:0px;display:none;} /*POST YUKI OCULTO*/ 
 
-#p73622 {height:0px;display:none;} /*POST HYUN OCULTO*/ 
+/*#p73622 {height:0px;display:none;} - POST HYUN OCULTO*/ 
 
 
 #p73608 .fa_like_list, #p73423 .fa_like_list, #p72383 .fa_like_list { 
@@ -668,3 +668,25 @@ gap: 10px 5px;
 #lista:hover p b { 
 border-color: var(--gr3) !important; 
 } 
+
+/*MEDALLERÍA PERSONAL*/
+.medallero div.med-au img {border-radius: 0;width: 50px;height: 50px;margin: 5px;display: inline-block;} 
+.medallero .imt {width:180px;height:180px} .medallero div {text-align:center;} 
+.medallero b {border-bottom: .5px solid;color:#666;padding-bottom:5px;} .medallero p {padding-left:0;}
+.medallero div img {max-width: 100% !important;margin: 10px;max-height: 100% !important;} 
+.medallero p {padding-left: 50px;text-transform: none;letter-spacing: .25px;color: #999;} 
+.medallero .imt {width:180px;height:180px} 
+.medallero div {text-align:center;} 
+.medallero#n4 b {border-bottom: .5px solid;color:#666;padding-bottom:5px;} 
+.medallero p {padding-left:0;} .medallero span p {width: 100px;}
+
+.medallero div img {max-width: 100% !important;margin: 10px;max-height: 100% !important;} 
+.medallero span img, .medallero b img {transition:1s;filter: grayscale(0.9) !important;} 
+.medallero span:hover img, .medallero b:hover img {transition:1s;filter: grayscale(0) !important;} 
+#blur {filter:blur(5px) grayscale(1) !important;}
+
+.med-au i:before {font-size: 50px !important;position: relative;} 
+.med-au i {font-family: 'FontAwesome';display: inline-block;font-size: 100px;width: 150px;height: 180px;float: left;margin-top: 50px;line-height: 70px;opacity: 0.5;}
+
+.med-au {text-align:center;}
+.med-au br {display:none;}
