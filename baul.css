@@ -600,7 +600,7 @@ height: 15px;
 color: var(--accep) !important; 
 border: 1px solid var(--gr3) !important; 
 border-radius: 5px; 
-margin: -3px 5px 0px 8px;; 
+margin: -3px 8px 0px 8px;; 
 padding: 0 !important; 
 flex: none; 
 } 
