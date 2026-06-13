@@ -9,6 +9,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sunshiney&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 /*VARIABLES*/
 .cbb { 
@@ -633,8 +634,8 @@ color: transparent !important;
 transition: 1s; 
 } 
 
-#ok s { 
-text-decoration: line-through !important;
+p#ok { 
+text-decoration: line-through;
 text-decoration-color: var(--accep); 
 } 
 
@@ -653,6 +654,10 @@ font-family: 'FontAwesome';
 font-size: 20px; 
 color: var(--accep) !important; 
 } 
+
+#ok a, #ok b {
+    text-decoration:none !important;
+}
 
 #lista { 
 display: flex; 
