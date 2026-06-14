@@ -59,6 +59,10 @@ text-align: justify;
 }
 
 /*FRASES ICÓNICAS*/
+.diario h4 {
+    margin: 15px 0;
+}
+
 .diario h4 b, .diario h4 a {
     text-align: right;
     margin-left: 42px;
