@@ -129,7 +129,6 @@ visibility: hidden;
 height: 0px; 
 } 
 
-
 .cbb h4:before, #n2 h4:before {opacity: 0.5;} 
 
 .semp-cajon-respuesta {grid-template-columns: auto;} 
@@ -169,7 +168,6 @@ letter-spacing: 1.5px;
 transition: 1s; 
 } 
 
-
 #n3 b:before, .cbb h1:before, .datab:after, #n3 h1:before, #n1:before { 
 content: ""; 
 position: absolute; 
@@ -205,7 +203,7 @@ width: 100px;
 height: 100px; 
 margin-top: 12px; 
 margin-left: -1px; 
-padding-right: 1px; 
+padding-right: 2px; 
 } 
 
 #n4 h1:before { 
@@ -250,7 +248,6 @@ margin-top: 24px;
 margin-left: 0px; 
 padding-right: 1px; 
 } 
-
 
 .ext h2 i, .ext h2 b, .ext h2:after, #n5 p i, #n5 p strong, #n4 p strong, #lista a:hover { 
 background: linear-gradient(45deg, var(--accep), var(--acento)); 
