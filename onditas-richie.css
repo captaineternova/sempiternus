@@ -93,21 +93,27 @@ text-align: justify;
 }
 
 .diario p i:before, .diario p i:after {
-    font-size: 22px;
+    font-size: 40px;
     font-family: 'FontAwesome';
     margin-bottom: 10px;
+    position: absolute;
+    width: 40px;
+    line-height: 50px;
+    z-index: 3;
     background: linear-gradient(15deg, var(--acentoo), var(--acento));
     background-clip: text !important;
 }
 
 .diario p i:before {
     content: "\f10d" !important;
-    margin-left: -5px !important;
+    margin-left: -30px !important;
+    margin-top: -40px;
 }
 
 .diario p i:after {
     content: "\f10e" !important;
-    margin-left: 5px !important;
+    right: -15px;
+    margin-top: 20px;
 }
 
 .diario i br {
@@ -118,8 +124,12 @@ text-align: justify;
     text-align: left;
     font-size: 15px !important;
     margin-bottom: 10px;
+    line-height: 15px !important;
 }
 
+.diario p {
+    margin-top: 125px !important;
+}
 
 /*BITACORA*/
 
