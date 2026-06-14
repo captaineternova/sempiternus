@@ -78,6 +78,10 @@ background: linear-gradient(45deg, var(--accep), hsl(from var(--accep) calc(h + 
 background-clip: text !important; 
 } 
 
+.yf #n2 h1:before {
+    margin-left: 0px !important;
+}
+
 /*VARIANTE WUXIAN*/ 
 
 .wx img, .wx .rbb b:before, .wx h1:before, .wx .datab:after, .wx#n1:before, .wx .medallero .imt { 
