@@ -80,6 +80,7 @@ text-align: justify;
 
 .diario h4 a {
     right: 0 !important;
+    margin-top: 18px !important;
 }
 
 .diario p a {
