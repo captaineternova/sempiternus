@@ -61,25 +61,25 @@ text-align: justify;
 /*FRASES ICÓNICAS*/
 .diario h4 b, .diario h4 a {
     text-align: right;
-    left: 0;
-    padding-right: 25px;
+    margin-left: 42px;
+    padding-right: 0;
 }
 
 .diario h4 b:before {
     content: "\f21e";
     display: inline-block;
     position: absolute;
-    top: -52px;
+    top: -12px;
     left: 40px;
     background: var(--bg2);
-    padding: 40px 30px;
+    padding: 50px 30px;
     border-radius: 100%;
     color: var(--acento);
     font-family: 'FontAwesome';
 }
 
 .diario h4 a {
-    right: 0 !important;
+    right: 275px !important;
 }
 
 .diario p a {
@@ -130,6 +130,7 @@ text-align: justify;
 
 .diario p {
     margin-top: 125px !important;
+    margin-bottom: 60px !important;
 }
 
 /*BITACORA*/
