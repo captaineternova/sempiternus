@@ -96,6 +96,8 @@ text-align: justify;
     font-size: 22px;
     font-family: 'FontAwesome';
     margin-bottom: 10px;
+    background: linear-gradient(15deg, var(--acentoo), var(--acento));
+    background-clip: text !important;
 }
 
 .diario p i:before {
