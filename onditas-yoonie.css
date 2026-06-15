@@ -59,6 +59,8 @@ text-align: justify;
   line-height:14px !important;
 }
 
+.baul-yn eternova sprd, .inv-yn eternova sprd { width:100%; text-align:center; } 
+
 /*OCULTAR FIRMA*/ 
 .signature_div { 
 visibility: hidden; 
