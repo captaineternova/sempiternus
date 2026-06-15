@@ -58,6 +58,8 @@ display: block;
 text-align: justify;
 }
 
+.baul-hs eternova sprd, .inv-hs eternova sprd { width:100%; text-align:center; } 
+
 /*OCULTAR FIRMA*/ 
 .signature_div { 
 visibility: hidden; 
