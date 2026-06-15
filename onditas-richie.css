@@ -57,6 +57,12 @@ display: block;
 text-align: justify;
 }
 
+/*OCULTAR FIRMA*/ 
+.signature_div { 
+visibility: hidden; 
+height: 0px; 
+} 
+
 /*FRASES ICÓNICAS*/
 .diario h4 b, .diario h4 a {
     text-align: right;
