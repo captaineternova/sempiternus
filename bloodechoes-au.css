@@ -32,6 +32,8 @@ display: none;
 #hyn strong {color:#7c3535;} 
 .content.clearfix div strong i {color: var(--accau1);} 
 
+eternova sprd:before {content:"——˖⁺‧₊☽◯☾₊‧⁺˖——" !important;color: var(--accau1) !important;}
+
 /*EDICIÓN AMBIENTAL*/ 
 
 body { 
