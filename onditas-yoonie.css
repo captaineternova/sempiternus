@@ -58,6 +58,13 @@ text-align: justify;
   font-size:15px !important;
   line-height:14px !important;
 }
+
+/*OCULTAR FIRMA*/ 
+.signature_div { 
+visibility: hidden; 
+height: 0px; 
+} 
+
 /*FRASES ICÓNICAS*/
 .diario h4 b, .diario h4 a {
     text-align: right;
