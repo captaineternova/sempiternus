@@ -57,7 +57,7 @@ eternova ttl {font-weight: bolder;display: block;color: var(--accent);text-align
 #yf u {text-decoration:none!important;font-weight:600;color:var(--haru);border-bottom:none!important} 
 
 #yf strong, #yf i strong, #yf strong i {
-    background: linear-gradient(45deg, var(--acentoo), hsl(from var(--acentoo) calc(h + 15) s l)) !important;
+    background: linear-gradient(45deg, var(--acentoo), hsl(from var(--acentoo) calc(h + 5) s l)) !important;
     background-clip: text !important;
 }
 
