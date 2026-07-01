@@ -533,8 +533,11 @@ break-inside: avoid;
 width: 60%; 
 } 
 
-.bspo .spoiler_content.hidden { 
-text-align: left !important; 
+.bspo .spoiler_content.hidden {
+    text-align: left !important;
+    line-height: 13px;
+    font-size: 12px;
+    font-family: 'Montserrat';
 } 
 
 /*MOODBOARD TIPO GRID*/ 
