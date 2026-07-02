@@ -1,3 +1,12 @@
+/*IMPORTACIONES*/
+@import url('https://luxuryposion.vercel.app/Eventos/Codember/Velo.css');
+@import url('https://kit-pro.fontawesome.com/releases/v6.0.0-beta3/css/pro.min.css');
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css?family=FontAwesome&display=swap');
+@import url('https://luxuryposion.vercel.app/Celulares/Cellphone/Siren.css');
+@import url('https://fonts.googleapis.com/css2?family=Thasadith:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+/*BLACKBERRY*/
 .berry-b {background:url(https://2img.net/i.imgur.com/7J1nz00.png); overflow:hidden; width:260px; height:465px; margin:10px auto; position:relative;} 
 .berry-im {width:220px; height:170px; position:absolute; margin-top:85px; margin-left:20px;} 
 .mcelu-hora:before { background:#000; content:''; display:block; width:220px; height:50px; position:absolute; margin-left:-5px; top:0px; opacity:.7;} 
@@ -32,8 +41,10 @@
 .mcelu-mcontidn i { font-weight:400; text-shadow:none;line-height:2px;font-size:10px; } 
 .mcelu-bmsj ::-webkit-scrollbar-thumb {background-color:#333 !important;width:5px;}
 
-/*Ocultar firmas*/
+/*GENERALES*/
 .signature_div { 
 visibility: hidden; 
 height: 0px; 
 } 
+
+.hyun-phones { display:flex; }
