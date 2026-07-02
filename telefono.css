@@ -20,7 +20,24 @@
 .mcelu-hora span {display:block; font-size:10px; margin-top:-4px; margin-bottom:-4px; margin-left:-25px;} 
 .berry-txt {background:rgba(0,0,0,0.5); width:210px; height:120px; display:block; position:relative; margin-top:11px; padding:0px 5px; overflow:hidden; transition:1s; transform:scale(0); z-index:3;} 
 .berry-txt img { border-radius:10px; box-shadow:.5px .5px 5px rgba(0,0,0,0.6); width:80px; height:80px; margin:20px 5px 10px; display:inline-block;} 
-.berry-txt p {   width: 100px; height: 70px; text-align: left; padding: 5px; font: 9px/10px Arial; display: block; color: #aaa; font-weight: lighter; background: #222; position: absolute; top: 20px; margin-left: 92px; border-radius: 5%; /*text-align: justify*/;margin-right:10px} 
+
+.berry-txt p {
+    width: 175px;
+    height: 40px;
+    text-align: center;
+    padding: 5px;
+    font: 9px / 10px Arial;
+    display: block;
+    color: #aaa;
+    font-weight: lighter;
+    background: #222;
+    position: absolute;
+    top: 40px;
+    margin-left: 15px;
+    border-radius: 5%;
+    margin-right: 10px;
+}
+
 
 .mcelu-hora iframe {opacity:0.8; margin-top:-2px} 
 .berry-im:hover .berry-txt {transition:1s; transform:scale(1);} 
