@@ -20,6 +20,7 @@
 .mcelu-hora span {display:block; font-size:10px; margin-top:-4px; margin-bottom:-4px; margin-left:-25px;} 
 .berry-txt {background:rgba(0,0,0,0.5); width:210px; height:120px; display:block; position:relative; margin-top:11px; padding:0px 5px; overflow:hidden; transition:1s; transform:scale(0); z-index:3;} 
 /*.berry-txt img { border-radius:10px; box-shadow:.5px .5px 5px rgba(0,0,0,0.6); width:80px; height:80px; margin:20px 5px 10px; display:inline-block;} */
+
 .berry-txt p {
     width: 175px;
     height: 40px;
@@ -55,6 +56,12 @@
 .mcelu-mcontidn{width:250px;height:25px;text-align:left;padding:5px;font:13px/19px Thasadith;font-weight:bolder;color:#fff;} 
 .mcelu-mcontidn i { font-weight:400; text-shadow:none;line-height:2px;font-size:10px; } 
 .mcelu-bmsj ::-webkit-scrollbar-thumb {background-color:#333 !important;width:5px;}
+
+.velo-imgs img:last-child {
+    margin-top: -50px;
+    align-self: flex-end;
+    margin-left: 85px;
+}
 
 /*GENERALES*/
 .signature_div { 
