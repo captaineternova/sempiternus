@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Thasadith:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 
-/*BLACKBERRY BASE*/
+/*BLACKBERRY*/
 .berry-b {background:url(https://2img.net/i.imgur.com/7J1nz00.png); overflow:hidden; width:260px; height:465px; margin:10px auto; position:relative;} 
 .berry-im {width:220px; height:170px; position:absolute; margin-top:85px; margin-left:20px;} 
 .mcelu-hora:before { background:#000; content:''; display:block; width:220px; height:50px; position:absolute; margin-left:-5px; top:0px; opacity:.7;} 
