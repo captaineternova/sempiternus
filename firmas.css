@@ -14,9 +14,9 @@
 div, p {
    --rin:#964b73; 
    --jun:#2d8091;
-   --haru:#a76378;
-   --yuu:#a16074;
-   --xian:#b45946;
+   --haru:#a76378 !important;
+   --yuu:#a16074 !important;
+   --xian:#b45946 !important;
 }
 
 /*TAPARRABO DE POST*/ 
@@ -304,7 +304,8 @@ margin: 0px !important;
 
 .post-yn p {box-sizing: border-box;padding: 25px;text-align: justify;hyphens: auto;font-size:14px;}
 
-.post-yn strong, .post-yn a, .post-yn strong i, .post-yn i strong {-webkit-background-clip: text !important;-webkit-text-fill-color: transparent !important;background: -webkit-linear-gradient(40deg,var(--acentoo), var(--acento));} .post-yn p {font-family: Poppins;text-align: justify;padding: 30px;line-height: 18px;margin-bottom: -180px;} 
+.post-yn strong, .post-yn a, .post-yn strong i, .post-yn i strong {-webkit-background-clip: text !important;-webkit-text-fill-color: transparent !important;background: -webkit-linear-gradient(40deg,var(--acentoo), var(--acento));} 
+.post-yn p {font-family: Poppins;text-align: justify;padding: 30px;line-height: 18px;margin-bottom: -180px;} 
 
 .post-yn b {font: 70px Mrs Saint Delafield;position: absolute;right: 30px;color: var(--gr2) !important;width: 80%;line-height: 20px;text-align: right;} 
 
@@ -319,11 +320,14 @@ margin: 0px !important;
 
 .yoonie u, .yoonie strike, .yoonie s {text-decoration:none!important;font-weight:600!important;border-bottom:none!important}
 
-.post-yn u {color: var(--rin)!important;border-bottom: none !important;} .post-yn strike, .post-yn s, .yoonie s {color: var(--jun)!important;}
+.post-yn u {color: var(--rin)!important;border-bottom: none !important;} 
+.post-yn strike, .post-yn s, .yoonie s {color: var(--jun)!important;}
 
-.post-yn i u {color: var(--rin)!important;border-bottom: none !important;} .post-yn i strike, .post-yn i s, .yoonie i s {color: var(--jun)!important;}
+.post-yn i u {color: var(--rin)!important;border-bottom: none !important;} 
+.post-yn i strike, .post-yn i s, .yoonie i s {color: var(--jun)!important;}
 
-.post-yn u i {color: var(--rin)!important;border-bottom: none !important;} .post-yn strike i, .post-yn s i, .yoonie s i {color: var(--jun)!important;}
+.post-yn u i {color: var(--rin)!important;border-bottom: none !important;} 
+.post-yn strike i, .post-yn s i, .yoonie s i {color: var(--jun)!important;}
 
 .post-yn #yf u {text-decoration:none!important;font-weight:600;color:var(--haru) !important;} 
 
