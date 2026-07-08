@@ -263,7 +263,9 @@ background:var(--bg2);
 
 
 /*ADAPTACIONES DE COLOR YOONIE*/
-.post-rl u {color: var(--rin)!important;border-bottom:none !important;} .post-rl strike {color: var(--jun)!important;}
+.post-rl u {color: var(--rin)!important;border-bottom:none !important;}
+.post-rl strike {color: var(--jun)!important;}
+.post-rl #yf u {color: var(--haru)!important;border-bottom:none !important;}
 
 .post-rl i u {color: var(--rin)!important;} .post-rl i strike {color: var(--jun)!important;}
 
