@@ -125,10 +125,6 @@ b.querido {
     text-decoration-color: var(--cicon);
 }
 
-.carta-txt p final {
-    float:right;
-}
-
 /*LETRAS PERSONALIZADAS*/
 #hyun p {
     font-family: 'Just Another Hand';
