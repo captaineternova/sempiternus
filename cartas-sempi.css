@@ -143,7 +143,7 @@ b.querido {
 
 /*HOVER*/
 .cartas-etnv:hover {
-    height: fit-content;
+    max-height: 100rem;
     outline: 1px dashed var(--bckg-1);
     transition: 1s ease-in;
 }
@@ -204,23 +204,46 @@ b.querido {
     line-height: 24px;
 }
 
-/*MODIFICACIONES GPT*/
-.carta-txt{
-    display:grid;
-    grid-template-rows:auto auto 0fr;
-    transition:grid-template-rows .8s ease;
+/*HOVER CORRECIÓN BY GPT*/
+/* HOVER */
+
+.cartas-etnv {
+    transition:
+        max-height .9s cubic-bezier(.22,1,.36,1),
+        outline .45s ease;
 }
 
-.carta-txt p{
-    overflow:hidden;
-    opacity:0;
-    transition:opacity .4s;
+.cartas-etnv:hover {
+    max-height: 100rem;
+    outline: 1px dashed var(--bckg-1);
 }
 
-.cartas-etnv:hover .carta-txt{
-    grid-template-rows:auto auto 1fr;
+.carta-txt p {
+    opacity: 0;
+    transition:
+        opacity .45s ease,
+        margin-top .9s cubic-bezier(.22,1,.36,1);
 }
 
-.cartas-etnv:hover p{
-    opacity:1;
+.cartas-etnv:hover .carta-txt p {
+    margin-top: -17.8rem;
+    opacity: 1;
+}
+
+.notita {
+    transition:
+        opacity .45s ease;
+}
+
+.cartas-etnv:hover .notita {
+    opacity: 0;
+}
+
+#sello {
+    transition:
+        transform .8s cubic-bezier(.22,1,.36,1);
+}
+
+.cartas-etnv:hover #sello {
+    transform: scale(1) rotate(18deg);
 }
