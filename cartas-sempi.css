@@ -139,6 +139,7 @@ b.querido {
 .carta-txt p text {
     text-decoration: underline dotted;
     text-decoration-color: var(--cicon);
+    text-decoration-thickness: 1px;
 }
 
 /*HOVER*/
