@@ -46,8 +46,6 @@
     margin-top: 1.1em;
     text-align: justify;
     hyphens: auto;
-    text-decoration: underline dotted;
-    text-decoration-color: var(--cicon);
     padding: .5rem;
 }
 
@@ -103,7 +101,6 @@ b.querido {
     border-bottom: 2px dotted var(--bckg-2);
     margin-bottom: -15px;
     line-height: 42px;
-    text-decoration: none !important;
     font-family: 'Inter';
     font-weight: bold;
 }
@@ -114,6 +111,17 @@ b.querido {
 
 .carta-txt p strike {
     text-decoration-color: var(--acento);
+}
+
+.carta-txt p u {
+    text-decoration: underline wavy;
+    text-decoration-color: var(--acento);
+    border-bottom: none !important;
+}
+
+.carta-txt p text {
+    text-decoration: underline dotted;
+    text-decoration-color: var(--cicon);
 }
 
 /*LETRAS PERSONALIZADAS*/
