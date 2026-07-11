@@ -204,3 +204,23 @@ b.querido {
     line-height: 24px;
 }
 
+/*MODIFICACIONES GPT*/
+.carta-txt{
+    display:grid;
+    grid-template-rows:auto auto 0fr;
+    transition:grid-template-rows .8s ease;
+}
+
+.carta-txt p{
+    overflow:hidden;
+    opacity:0;
+    transition:opacity .4s;
+}
+
+.cartas-etnv:hover .carta-txt{
+    grid-template-rows:auto auto 1fr;
+}
+
+.cartas-etnv:hover p{
+    opacity:1;
+}
