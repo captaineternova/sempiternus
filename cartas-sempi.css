@@ -117,11 +117,16 @@ b.querido {
     text-decoration: underline wavy;
     text-decoration-color: var(--acento);
     border-bottom: none !important;
+    font-weight:200;
 }
 
 .carta-txt p text {
     text-decoration: underline dotted;
     text-decoration-color: var(--cicon);
+}
+
+.carta-txt p final {
+    float:right;
 }
 
 /*LETRAS PERSONALIZADAS*/
