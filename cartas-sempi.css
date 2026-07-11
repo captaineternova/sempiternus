@@ -62,7 +62,7 @@
 .carta-txt #sello {
     font-size: 8rem;
     float: right;
-    background: var(--grd);
+    background: var(--grdp);
     color: var(--brd-c);
     padding: 2rem;
     border-radius: 100%;
