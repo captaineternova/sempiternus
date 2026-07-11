@@ -44,11 +44,12 @@
     outline-offset: 20px;
     outline: 1px solid var(--bckg-1);
     border-radius: 20px;
-    margin-top: 2em;
+    margin-top: 1.1em;
     text-align: justify;
     hyphens: auto;
     text-decoration: underline dotted;
     text-decoration-color: var(--cicon);
+    padding: .5rem;
 }
 
 .carta-txt {
@@ -101,8 +102,6 @@ b.querido {
     font-size: 30px;
     display: block;
     border-bottom: 2px dotted var(--bckg-2);
-    padding-bottom: 0rem;
-    margin-top: 10px;
     margin-bottom: -15px;
     line-height: 42px;
     text-decoration: none !important;
@@ -110,10 +109,19 @@ b.querido {
     font-weight: bold;
 }
 
+.carta-txt p i {
+    color: var(--acento);
+}
+
+.carta-txt p strike {
+    text-decoration-color: var(--acento);
+}
+
 /*LETRAS PERSONALIZADAS*/
 #hyun p {
     font-family: 'Just Another Hand';
-    font-size: 30px;
-    line-height: 25px;
+    font-size: 25px;
+    line-height: 23px;
     font-weight: 200;
 }
+
