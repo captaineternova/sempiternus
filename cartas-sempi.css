@@ -32,11 +32,5 @@
     position: absolute;
     left: 0;
     transition:1s;
-    clip-path:var(--onda1);
-}
-
-.postbody:hover .cartas-etnv:after {
-    top: 150px;
-    transition: 1s;
-    transition-delay: 1s;
+    clip-path:var(--onda2);
 }
