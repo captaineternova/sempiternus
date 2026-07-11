@@ -105,7 +105,11 @@ b.querido {
     font-weight: bold;
 }
 
-.carta-txt p i, .carta-txt p b, .carta-txt p strong, .carta-txt span strong {
+.carta-txt p i, 
+.carta-txt p b, 
+.carta-txt p strong, 
+.carta-txt span strong, 
+.carta-txt span b {
     color: var(--acento);
 }
 
