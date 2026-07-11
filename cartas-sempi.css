@@ -21,9 +21,8 @@
     background-image: var(--fondo);
     background-color: var(--acento);
     background-attachment: fixed;
-    background-position: center;
     background-size: cover;
-    background-blend-mode: luminosity;
+    background-blend-mode: multiply;
 }
 
 .cartas-etnv:after {
