@@ -142,10 +142,10 @@ b.querido {
 }
 
 /*HOVER*/
-.cartas-etnv {
-    height: 23em;
+.cartas-etnv:hover {
+    height: fit-content;
+    outline: 1px dashed var(--bckg-1);
     transition: 1s ease-in;
-    cursor: pointer;
 }
 
 .cartas-etnv:hover {
