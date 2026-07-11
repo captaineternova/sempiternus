@@ -2,6 +2,7 @@
 @import url('https://static.tumblr.com/svdghan/wUSr83npl/tempcf.css');
 @import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Vujahday+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Waterfall&display=swap');
 
 /*VARIABLES*/
 .cartas-etnv {
@@ -139,7 +140,13 @@ b.querido {
 
 #yuki p {
     font-family: 'Vujahday Script';
-    font-size: 32px;
-    line-height: 25px;
+    font-size: 25px;
+    line-height: 23px;
+}
+
+#xian p {
+    font-family: 'Waterfall';
+    font-size: 25px;
+    line-height: 24px;
 }
 
