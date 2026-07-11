@@ -48,6 +48,8 @@
     text-align: justify;
     hyphens: auto;
     padding: .5rem;
+    background: var(--bckg-3);
+    margin-bottom: 2em;
 }
 
 .carta-txt {
@@ -128,6 +130,41 @@ b.querido {
 .carta-txt p text {
     text-decoration: underline dotted;
     text-decoration-color: var(--cicon);
+}
+
+/*HOVER*/
+.carta-txt {
+    height: 16rem;
+    transition: 1s ease-in;
+    transition-delay:1s;
+}
+
+.cartas-etnv:hover .carta-txt {
+    height: auto;
+    transition: 1s ease-in;
+    transition-delay:1s;
+}
+
+.cartas-etnv:hover .carta-txt p {
+    margin-top: -280px;
+    opacity:1;
+    transition:1s;
+    transition-delay:2s;
+}
+
+.carta-txt p {
+    opacity:0;
+    transition:1s;
+    transition-delay:2s;
+}
+
+.cartas-etnv:hover .notita {
+    opacity:0;
+    transition:1s;
+}
+
+.notita {
+    transition:1s;
 }
 
 /*LETRAS PERSONALIZADAS*/
