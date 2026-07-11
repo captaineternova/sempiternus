@@ -105,7 +105,7 @@ b.querido {
     font-weight: bold;
 }
 
-.carta-txt p i {
+.carta-txt p i, .carta-txt p b, .carta-txt p strong, .carta-txt span strong {
     color: var(--acento);
 }
 
@@ -133,7 +133,9 @@ b.querido {
     font-weight: 200;
 }
 
-#yuki p { 
+#yuki p {
     font-family: 'Lavishly Yours';
+    font-size: 32px;
+    line-height: 25px;
 }
 
