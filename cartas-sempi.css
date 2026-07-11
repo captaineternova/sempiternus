@@ -95,7 +95,7 @@
 
 .carta-txt span li {
     list-style: none;
-    border-bottom: 1px solid var(--bckg-3);
+    border-bottom: 1px dashed var(--bckg-3);
     padding-bottom: 8px;
     padding-left: 10px;
 }
