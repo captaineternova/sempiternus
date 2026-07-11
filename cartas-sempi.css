@@ -154,17 +154,6 @@ b.querido {
     transition: 1s ease-in;
 }
 
-
-.carta-txt {
-    height: 16rem;
-    transition: 1s ease-in;
-}
-
-.cartas-etnv:hover .carta-txt {
-    height: auto;
-    transition: 1s ease-in;
-}
-
 .cartas-etnv:hover .carta-txt p {
     margin-top: -17.8rem;
     opacity:1;
