@@ -15,15 +15,15 @@
 .cartas-etnv {
     margin: 2em auto;
     width: 35rem;
-    height: auto;
     overflow: hidden;
     position: relative;
-    transition: 1s ease-in;
     background-image: var(--fondo);
     background-color: var(--acento);
     background-attachment: fixed;
     background-size: cover;
     background-blend-mode: multiply;
+    outline: 1px dashed var(--acento);
+    outline-offset: -8px;
 }
 
 .cartas-etnv:after {
@@ -35,7 +35,7 @@
     content: "";
     position: absolute;
     left: -55px;
-    bottom: -100px;
+    bottom: -92px;
     transform: rotateY(180deg);
     clip-path: var(--onda2);
 }
@@ -72,6 +72,8 @@
     box-shadow: 8px 5px 5px var(--bckg-2);
     outline: 1px solid var(--bckg-2);
     outline-offset: -5px;
+    z-index: 10;
+    position: relative;
 }
 
 .carta-txt span.notita {
@@ -133,6 +135,18 @@ b.querido {
 }
 
 /*HOVER*/
+.cartas-etnv {    
+    height:20em;
+    transition: 1s ease-in;
+}
+    
+.cartas-etnv:hover {
+    height:auto;
+    outline: 1px dashed var(--bckg-1);
+    transition: 1s ease-in;
+}
+
+
 .carta-txt {
     height: 16rem;
     transition: 1s ease-in;
@@ -146,10 +160,10 @@ b.querido {
 }
 
 .cartas-etnv:hover .carta-txt p {
-    margin-top: -280px;
+    margin-top: -300px;
     opacity:1;
     transition:1s;
-    transition-delay:2s;
+
 }
 
 .carta-txt p {
