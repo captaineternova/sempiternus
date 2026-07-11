@@ -35,24 +35,24 @@
     content: "";
     position: absolute;
     left: -55px;
-    bottom: -92px;
+    bottom: -80px;
     transform: rotateY(180deg);
     clip-path: var(--onda2);
     z-index: 3;
 }
 
 .carta-txt p {
-    outline-offset: 20px;
-    outline: 1px solid var(--bckg-1);
     border-radius: 20px;
     margin-top: 1.1em;
     text-align: justify;
     hyphens: auto;
-    padding: .5rem;
+    padding: 1rem;
     background: var(--bckg-3);
     margin-bottom: 2em;
-    position:relative;
-    z-index:2;
+    position: relative;
+    z-index: 2;
+    margin-left: -1rem;
+    margin-right: -1rem;
 }
 
 .carta-txt {
@@ -77,6 +77,8 @@
     outline-offset: -5px;
     z-index: 4;
     position: relative;
+    margin-left: .5rem;
+    margin-bottom: -.5rem;
 }
 
 .carta-txt span.notita {
@@ -140,9 +142,10 @@ b.querido {
 }
 
 /*HOVER*/
-.cartas-etnv {    
-    height:20em;
+.cartas-etnv {
+    height: 23em;
     transition: 1s ease-in;
+    cursor: pointer;
 }
 
 .cartas-etnv:hover {
@@ -163,7 +166,7 @@ b.querido {
 }
 
 .cartas-etnv:hover .carta-txt p {
-    margin-top: -300px;
+    margin-top: -17.8rem;
     opacity:1;
     transition:1s;
 
@@ -181,6 +184,15 @@ b.querido {
 
 .notita {
     transition:1s;
+}
+
+.cartas-etnv:hover #sello {
+    transition: 1s;
+    transform: scale(1) rotate(18deg);
+}
+
+#sello {
+    transition: 1s;
 }
 
 /*LETRAS PERSONALIZADAS*/
