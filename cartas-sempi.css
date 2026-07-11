@@ -43,7 +43,7 @@
 
 .carta-txt p {
     border-radius: 20px;
-    margin-top: 1.1em;
+    /*margin-top: 1.1em;*/
     text-align: justify;
     hyphens: auto;
     padding: 1rem;
@@ -226,7 +226,6 @@ b.querido {
 }
 
 .cartas-etnv:hover .carta-txt p {
-    margin-top: -17.8rem;
     opacity: 1;
 }
 
