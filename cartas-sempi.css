@@ -1,3 +1,34 @@
+.postbody:hover .cartas-etnv {
+    margin: 2em auto;
+    transition: 1s ease-in;
+    transform: rotateY(0deg);
+}
 .cartas-etnv {
-  position:relative;
+    margin: 2em auto;
+    width: 35rem;
+    background: red;
+    padding: 20px;
+    height: 20rem;
+    overflow: hidden;
+    position: relative;
+    transform: rotateY(180deg);
+    transition: 1s ease-in;
+}
+
+.cartas-etnv:after {
+    margin: 2em auto;
+    width: 35rem;
+    background: blue;
+    padding: 20px;
+    height: 14rem;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 70px;
+}
+
+.postbody:hover .cartas-etnv:after {
+    top: 150px;
+    transition: 1s;
+    transition-delay: 1s;
 }
