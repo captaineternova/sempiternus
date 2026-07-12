@@ -173,6 +173,10 @@ b.querido {
 
 }
 
+#sin-notita:hover .carta-txt p {
+    margin-top:-5rem;
+}
+
 .carta-txt p {
     opacity:0;
     transition:1s;
