@@ -106,7 +106,7 @@
 .carta-txt .notita b {
     font-family: 'Inter' !important;
     font-weight: bold;
-    cont-size:13px !important;
+    font-size:13px !important;
 }
     
 
@@ -174,7 +174,7 @@ b.querido {
 }
 
 #sin-notita:hover .carta-txt p {
-    margin-top:-5rem;
+    margin-top:-2rem;
 }
 
 .carta-txt p {
