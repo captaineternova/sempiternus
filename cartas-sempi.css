@@ -100,6 +100,12 @@
     padding-left: 10px;
 }
 
+.carta-txt .notita b {
+    font-family: 'Inter' !important;
+    font-weight: bold;
+}
+    
+
 .carta-txt span li:before {
     color: var(--acento);
     content: "✦";
@@ -187,20 +193,20 @@ b.querido {
 }
 
 /*LETRAS PERSONALIZADAS*/
-#hyun p {
+#hyun p, #hyun .notita {
     font-family: 'Just Another Hand';
     font-size: 25px;
     line-height: 23px;
     font-weight: 200;
 }
 
-#yuki p {
+#yuki p, #yuki .notita {
     font-family: 'Vujahday Script';
     font-size: 22px;
     line-height: 20px;
 }
 
-#xian p {
+#xian p, #xian .notita {
     font-family: 'Waterfall';
     font-size: 32px;
     line-height: 22px;
@@ -215,11 +221,6 @@ b.querido {
         outline .45s ease;
 }
 
-.cartas-etnv:hover {
-    max-height: 100rem;
-    outline: 1px dashed var(--bckg-1);
-}
-
 .carta-txt p {
     opacity: 0;
     transition:
@@ -227,24 +228,12 @@ b.querido {
         margin-top .9s cubic-bezier(.22,1,.36,1);
 }
 
-.cartas-etnv:hover .carta-txt p {
-    opacity: 1;
-}
-
 .notita {
     transition:
         opacity .45s ease;
 }
 
-.cartas-etnv:hover .notita {
-    opacity: 0;
-}
-
 #sello {
     transition:
         transform .8s cubic-bezier(.22,1,.36,1);
-}
-
-.cartas-etnv:hover #sello {
-    transform: scale(1) rotate(18deg);
 }
