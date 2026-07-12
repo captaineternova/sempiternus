@@ -57,6 +57,8 @@ eternova ttl {font-weight: bolder;display: block;color: var(--accent);text-align
    font-weight:600!important;
    border-bottom:none!important;
    text-transform: none !important;
+   background:none !important;
+   font-size:1rem;
 }
 
 /*HARU Y YUKI*/
@@ -65,6 +67,8 @@ eternova ttl {font-weight: bolder;display: block;color: var(--accent);text-align
    font-weight:600;color:var(--haru);
    border-bottom:none!important;
    text-transform: none !important;
+   background:none !important;
+   font-size:1rem;
 } 
 
 #yf strong, #yf i strong, #yf strong i {
