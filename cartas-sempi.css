@@ -91,7 +91,7 @@
     outline-offset: -10px;
     position: relative;
     z-index: 1;
-    font-size:18px;
+    font-size:16px;
     min-height:13rem;
 }
 
@@ -175,7 +175,7 @@ b.querido {
 }
 
 #sin-notita:hover .carta-txt p {
-    margin-top:2rem;
+    margin-top:5rem;
 }
 
 .carta-txt p {
