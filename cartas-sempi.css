@@ -20,7 +20,7 @@
     background-image: var(--fondo);
     background-color: var(--acento);
     background-attachment: fixed;
-    background-size: cover;
+    background-size: auto;
     background-blend-mode: multiply;
     outline: 1px dashed var(--acento);
     outline-offset: -8px;
