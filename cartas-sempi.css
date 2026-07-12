@@ -56,7 +56,7 @@
 }
 
 .carta-txt {
-    background: linear-gradient(180deg, transparent 0%, var(--bckg-3) 25%);
+    background: linear-gradient(180deg, transparent 5%, var(--bckg-3) 30%);
     padding: 3em 2.5em;
     outline-offset: 10px;
     margin-top: -3em;
@@ -163,7 +163,7 @@ b.querido {
 
 .cartas-etnv:hover {
     max-height: 100rem;
-    outline: 1px dashed var(--bckg-1);
+    outline: 1px dashed var(--cicon);
     transition: 1s ease-in;
 }
 
