@@ -161,20 +161,20 @@ b.querido {
     cursor: pointer;
 }
 
-.postbody:hover .cartas-etnv {
+.cartas-etnv:hover {
     max-height: 100rem;
     outline: 1px dashed var(--cicon);
     transition: 1s ease-in;
 }
 
-.postbody:hover .cartas-etnv .carta-txt p {
+.cartas-etnv:hover .carta-txt p {
     margin-top: -12rem;
     opacity:1;
     transition:1s;
 
 }
 
-.postbody:hover #sin-notita .carta-txt p {
+#sin-notita:hover .carta-txt p {
     margin-top:4rem;
 }
 
@@ -183,7 +183,7 @@ b.querido {
     transition:1s;
 }
 
-.postbody:hover .cartas-etnv .notita {
+.cartas-etnv:hover .notita {
     opacity:0;
     transition:1s;
 }
@@ -192,7 +192,7 @@ b.querido {
     transition:1s;
 }
 
-.postbody:hover .cartas-etnv #sello {
+.cartas-etnv:hover #sello {
     transition: 1s;
     transform: scale(1) rotate(22deg);
 }
