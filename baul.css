@@ -68,7 +68,7 @@ border-radius: 0% !important;
 .yf, .yf .statis, .yf .bit, .yf .crono {--acento: var(--celebridades)!important;} 
 
 .yf #escritura strong { 
-background: linear-gradient(45deg, var(--accep), hsl(from var(--accep) calc(h + var(--hsl)) s l)) !important; 
+background: linear-gradient(45deg, var(--accep), var(--yuu)) !important; 
 background-clip: text !important; 
 } 
 
