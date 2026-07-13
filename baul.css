@@ -637,10 +637,6 @@ text-decoration: line-through;
 text-decoration-color: var(--accep); 
 } 
 
-#ok b:after, #ok b, #ok a {
-text-decoration: none !important;
-}
-
 #ok a { 
 background: linear-gradient(20deg, var(--accep), var(--acento))!important; 
 background-clip: text !important; 
@@ -653,8 +649,9 @@ font-size: 20px;
 color: var(--accep) !important; 
 } 
 
-#ok a, #ok b {
-    text-decoration:none !important;
+#ok b:after, #ok b, #ok a {
+    text-decoration-color: rgba(0, 0, 0, 0) !important;
+    text-decoration: none !important;
 }
 
 #lista { 
