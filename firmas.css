@@ -52,13 +52,11 @@ eternova ttl {font-weight: bolder;display: block;color: var(--accent);text-align
 /*AJUSTES COLORINES*/
 /*YOONIE RIN Y JUN*/
 .yoonie {--accent:var(--sami);}
-.yoonie u {color: var(--rin) !important;border-bottom:none !important;} 
+.yoonie u {color: var(--rin) !important;} 
 .yoonie strike {color: var(--jun) !important;}
 
 /*HARU Y YUKI*/
-#yf u {
-   color:var(--haru) !important;
-}
+#yf u {color:var(--haru) !important;}
 
 #yf strong, #yf i strong, #yf strong i {
     background: linear-gradient(45deg, var(--acentoo), var(--yuu)) !important;
@@ -67,9 +65,9 @@ eternova ttl {font-weight: bolder;display: block;color: var(--accent);text-align
 
 /*ESTILO HARU RIN Y JUN*/
 .yoonie u, .yoonie strike, #yf u {
-   text-decoration:none!important;
-   font-weight:600!important;
-   border-bottom:none!important;
+   text-decoration:none !important;
+   font-weight:800 !important;
+   border-bottom:none !important;
    text-transform: none !important;
    background:none !important;
    padding:0px !important;
