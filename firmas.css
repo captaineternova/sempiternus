@@ -56,7 +56,7 @@ eternova ttl {font-weight: bolder;display: block;color: var(--accent);text-align
 .yoonie strike {color: var(--jun) !important;}
 
 /*HARU Y YUKI*/
-#yf u {color:var(--haru);}
+#yf u {color:var(--haru) !important;}
 
 #yf strong, #yf i strong, #yf strong i {
     background: linear-gradient(45deg, var(--acentoo), var(--yuu)) !important;
