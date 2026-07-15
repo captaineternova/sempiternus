@@ -56,7 +56,7 @@ eternova ttl {font-weight: bolder;display: block;color: var(--accent);text-align
 .yoonie strike {color: var(--jun) !important;}
 
 /*HARU Y YUKI*/
-#yf u {color:var(--haru) !important;}
+#yf u {color:var(--haru);}
 
 #yf strong, #yf i strong, #yf strong i {
     background: linear-gradient(45deg, var(--acentoo), var(--yuu)) !important;
@@ -279,14 +279,6 @@ background:var(--bg2);
 .post-rl s, .post-rl strike { text-decoration-color:var(--accent); }
 
 /*ADAPTACIONES DE COLOR YOONIE*/
-.post-rl#kwy u {color: var(--rin)!important;border-bottom:none !important;}
-.post-rl#kyw strike {color: var(--jun)!important;text-decoration:none !important;font-size:14px;}
-.post-rl#kyw #yf u {color: var(--haru)!important;border-bottom:none !important;}
-
-.post-rl#kyw i u {color: var(--rin)!important;} .post-rl#kyw i strike {color: var(--jun)!important;}
-
-.post-rl#kyw u i {color: var(--rin)!important;} .post-rl#kyw strike i {color: var(--jun)!important;}
-
 #kyw p i {color:var(--yoonie);} 
 #kyw:after { background: linear-gradient(90deg, var(--yoonie), var(--acento));} 
 #kyw strong, #kyw a, #kyw h4 i {background: -webkit-linear-gradient(40deg,var(--yoonie), var(--acento));}
