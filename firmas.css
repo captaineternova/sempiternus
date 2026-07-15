@@ -284,6 +284,7 @@ background:var(--bg2);
 #kyw p i {color:var(--yoonie);} 
 #kyw:after { background: linear-gradient(90deg, var(--yoonie), var(--acento));} 
 #kyw strong, #kyw a, #kyw h4 i {background: -webkit-linear-gradient(40deg,var(--yoonie), var(--acento));}
+#kyw strike, #kyw u { font-size:14px; }
 
 #kyw span {
 font-family: Poppins;
