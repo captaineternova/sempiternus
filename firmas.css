@@ -63,6 +63,11 @@ eternova ttl {font-weight: bolder;display: block;color: var(--accent);text-align
     background-clip: text !important;
 }
 
+.post-rl #yf strong, .post-rl #yf i strong, .post-rl #yf strong i {
+    background: linear-gradient(45deg, var(--accent), var(--yuu)) !important;
+    background-clip: text !important;
+}
+
 /*ESTILO HARU RIN Y JUN*/
 .yoonie u, .yoonie strike, #yf u {
    text-decoration:none !important;
