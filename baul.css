@@ -22,7 +22,6 @@
 --cfont3: serif; 
 --accep: var(--celebridades); 
 --acento: var(--ciudadanos); 
-
 } 
 
 #p73608 .fa_like_list, #p73423 .fa_like_list, #p72383 .fa_like_list { 
@@ -31,8 +30,9 @@ display: none;
 
 .yf, .yf .statis, .yf .bit, .yf .crono, .yf .medallero { 
 --accep: var(--sami) !important; 
---acento: var(--celebridades) !important; 
+--acento: var(--yf) !important; 
 } 
+.yf, .yf .statis, .yf .bit, .yf .crono {--acento: var(--celebridades)!important;} 
 
 .wx, .wx .statis, .wx .bit, .wx .crono, .wx .medallero { 
 --accep: var(--empresarios) !important; 
@@ -64,8 +64,6 @@ border-radius: 0% !important;
 clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%) !important; 
 border-radius: 0% !important; 
 } 
-
-.yf, .yf .statis, .yf .bit, .yf .crono {--acento: var(--celebridades)!important;} 
 
 .yf #escritura strong { 
 background: linear-gradient(45deg, var(--accep), var(--yuu)) !important; 
