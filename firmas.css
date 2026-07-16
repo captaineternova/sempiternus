@@ -700,9 +700,6 @@ cute {
 }
 
 /*ARREGLO POST YUKI*/
-#p71437 .post-yn, #p75551 .post-yn, #p77982 .post-yn, #p79702 .post-yn, 
+#p71437 .post-yn, #p75551 .post-yn, #p77982 .post-yn, #p79702 .post-yn,
 #p71502 .post-yn, #p75560 .post-yn, #p78857 .post-yn, #p79749 .post-yn, #p81774 .post-yn, 
-#p71407 .post-yn, #p72504 .post-yn, #p75257 .post-yn, #p76340 .post-yn, #p78445 .post-yn,
-{
-   --acento:var(--yuu) !important;
-}
+#p71407 .post-yn, #p72504 .post-yn, #p75257 .post-yn, #p76340 .post-yn, #p78445 .post-yn {--acento:var(--yuu) !important;}
