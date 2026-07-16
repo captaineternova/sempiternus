@@ -16,9 +16,8 @@ div, p {
    --rin:#964b73; 
    --jun:#2d8091;
    --haru:#a76378;
-   /*--yuu:#b87a8e;*/
    --xian:#b45946;
-   --yuu:#9eb2bc;
+   --yuu:#8fa7b4;
    --yoonie:#b88a99; 
 }
 
@@ -60,13 +59,9 @@ eternova ttl {font-weight: bolder;display: block;color: var(--accent);text-align
 /*HARU Y YUKI*/
 #yf u, #yf u i, #yf i u, .yoonie #yf u {color:var(--haru) !important;}
 
-#yf strong, #yf i strong, #yf strong i {
-    background: linear-gradient(45deg, var(--acentoo), var(--yuu)) !important;
-    background-clip: text !important;
-}
-
+#yf strong, #yf i strong, #yf strong i,
 .post-rl #yf strong, .post-rl #yf i strong, .post-rl #yf strong i {
-    background: linear-gradient(45deg, var(--accent), var(--yuu)) !important;
+    background: linear-gradient(60deg, var(--acentoo), var(--yuu)) !important;
     background-clip: text !important;
 }
 
@@ -198,7 +193,7 @@ font:10px/10px Noto Sans;}
 .post-rl strong, .post-rl a, .post-rl h4 i {
 -webkit-background-clip: text !important;
 -webkit-text-fill-color: transparent !important;
-background: -webkit-linear-gradient(40deg,var(--accent), var(--acento));
+background: -webkit-linear-gradient(60deg,var(--accent), var(--acento));
 } 
 
 .post-rl h4 {
@@ -283,7 +278,7 @@ background:var(--bg2);
 /*ADAPTACIONES DE COLOR YOONIE*/
 #kyw p i {color:var(--yoonie);} 
 #kyw:after { background: linear-gradient(90deg, var(--yoonie), var(--acento));} 
-#kyw strong, #kyw a, #kyw h4 i {background: -webkit-linear-gradient(40deg,var(--yoonie), var(--acento));}
+#kyw strong, #kyw a, #kyw h4 i {background: -webkit-linear-gradient(60deg,var(--yoonie), var(--acento));}
 #kyw strike, #kyw u { font-size:14px; }
 
 #kyw span {
@@ -318,7 +313,7 @@ margin: 0px !important;
 
 .post-yn p {box-sizing: border-box;padding: 25px;text-align: justify;hyphens: auto;font-size:14px;}
 
-.post-yn strong, .post-yn a, .post-yn strong i, .post-yn i strong {-webkit-background-clip: text !important;-webkit-text-fill-color: transparent !important;background: -webkit-linear-gradient(40deg,var(--acentoo), var(--acento));} 
+.post-yn strong, .post-yn a, .post-yn strong i, .post-yn i strong {-webkit-background-clip: text !important;-webkit-text-fill-color: transparent !important;background: -webkit-linear-gradient(60deg,var(--acentoo), var(--acento));} 
 .post-yn p {font-family: Poppins;text-align: justify;padding: 30px;line-height: 18px;margin-bottom: -180px;} 
 
 .post-yn b {font: 70px Mrs Saint Delafield;position: absolute;right: 30px;color: var(--gr2) !important;width: 80%;line-height: 20px;text-align: right;} 
@@ -373,7 +368,7 @@ padding:20px;font:10px/10px Noto Sans;
 .post-hs strong, .post-hs a, .post-hs h4 i {
 -webkit-background-clip: text !important;
 -webkit-text-fill-color: transparent !important;
-background: -webkit-linear-gradient(40deg,var(--acentoo), var(--acento));} 
+background: -webkit-linear-gradient(60deg,var(--acentoo), var(--acento));} 
 
 .post-hs h4 {
 margin: 0 auto;
