@@ -32,7 +32,6 @@ display: none;
 --accep: var(--sami) !important; 
 --acento: var(--yuu) !important; 
 } 
-.yf, .yf .statis, .yf .bit, .yf .crono {--acento: var(--celebridades)!important;} 
 
 .wx, .wx .statis, .wx .bit, .wx .crono, .wx .medallero { 
 --accep: var(--empresarios) !important; 
