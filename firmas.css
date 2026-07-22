@@ -93,7 +93,8 @@ eternova ttl {font-weight: bolder;display: block;color: var(--accent);text-align
 }
 
 .post-yn #yf u, .post-yn .yoonie #yf u,
-.post-rl #yf u, .post-rl .yoonie #yf u
+.post-rl #yf u, .post-rl .yoonie #yf u,
+.post-hs #yf u, .post-hs .yoonie #yf u
 {
    background: linear-gradient(to right, var(--haru), hsl(from var(--haru) calc(h + 30) calc(s + 15) l));
    background-clip: text;
