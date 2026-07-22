@@ -53,11 +53,11 @@ eternova ttl {font-weight: bolder;display: block;color: var(--accent);text-align
 /*AJUSTES COLORINES*/
 /*YOONIE RIN Y JUN*/
 .yoonie {--accent:var(--sami);}
-.yoonie u, .yoonie u i, .yoonie i u, #yf .yoonie u {color: var(--rin) !important;} 
-.yoonie strike, .yoonie i strike, .yoonie strike i {color: var(--jun) !important;}
+.yoonie u, .yoonie u i, .yoonie i u, #yf .yoonie u {color: var(--rin);} 
+.yoonie strike, .yoonie i strike, .yoonie strike i {color: var(--jun);}
 
 /*HARU Y YUKI*/
-#yf u, .yoonie #yf u {color:var(--haru) !important;}
+#yf u, .yoonie #yf u {color:var(--haru);}
 
 #yf strong, #yf i strong, #yf strong i,
 .post-rl #yf strong, .post-rl #yf i strong, .post-rl #yf strong i {
