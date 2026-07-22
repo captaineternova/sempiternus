@@ -67,12 +67,12 @@ eternova ttl {font-weight: bolder;display: block;color: var(--accent);text-align
 
 /*ESTILO HARU RIN Y JUN + DEGRADADOS*/
 .yoonie u, .yoonie strike, #yf u {
-   text-decoration:none;
-   font-weight:700;
-   border-bottom:none;
-   text-transform: none;
+   text-decoration:none !important;
+   font-weight:700 !important;
+   border-bottom:none !important;
+   text-transform: none !important;
    background:none;
-   padding:0px;
+   padding:0px !important;
 }
 
 .post-yn .yoonie u, .post-yn #yf .yoonie u, .post-yn .yoonie u i, .post-yn #yf .yoonie u i, .post-yn .yoonie i u, .post-yn #yf .yoonie i u,
