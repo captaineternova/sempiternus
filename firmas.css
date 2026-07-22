@@ -78,7 +78,7 @@ eternova ttl {font-weight: bolder;display: block;color: var(--accent);text-align
 .post-yn .yoonie u, .post-yn #yf .yoonie u, .post-yn .yoonie u i, .post-yn #yf .yoonie u i, .post-yn .yoonie i u, .post-yn #yf .yoonie i u,
 .post-rl .yoonie u, .post-rl #yf .yoonie u, .post-rl .yoonie u i, .post-rl #yf .yoonie u i, .post-rl .yoonie i u, .post-rl #yf .yoonie i u 
 {
-   background: linear-gradient(to right, var(--rin), hsl(from var(--rin) calc(h + 30) calc(s + 15) l));
+   background: linear-gradient(to right, var(--rin), hsl(from var(--rin) calc(h - 30) calc(s - 15) l));
    background-clip: text;
    color: transparent;
 }
@@ -96,7 +96,7 @@ eternova ttl {font-weight: bolder;display: block;color: var(--accent);text-align
 .post-rl #yf u, .post-rl .yoonie #yf u,
 .post-hs #yf u, .post-hs .yoonie #yf u
 {
-   background: linear-gradient(to right, var(--haru), hsl(from var(--haru) calc(h + 30) calc(s + 15) l));
+   background: linear-gradient(to right, var(--haru), hsl(from var(--haru) calc(h - 15) calc(s - 10) l));
    background-clip: text;
    color: transparent;
 }
