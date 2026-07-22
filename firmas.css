@@ -89,10 +89,11 @@ eternova ttl {font-weight: bolder;display: block;color: var(--accent);text-align
 {
    background: linear-gradient(to right, var(--jun), hsl(from var(--jun) calc(h + 15) s l));
    background-clip: text;
-   color: transparent !important;
+   color: transparent;
 }
 
-.post-yn #yf u, .post-yn .yoonie #yf u
+.post-yn #yf u, .post-yn .yoonie #yf u,
+.post-rl #yf u, .post-rl .yoonie #yf u
 {
    background: linear-gradient(to right, var(--haru), hsl(from var(--haru) calc(h - 15) s l));
    background-clip: text;
