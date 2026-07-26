@@ -7,6 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Waterfall&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=League+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
 
 
 /*VARIABLES*/
@@ -240,7 +241,7 @@ b.querido {
 }
 
 #haru p, #haru .notita {
-    font-family: 'Send Flowers';
+    font-family: 'Schoolbell';
     font-size: 32px;
     line-height: 22px;
 }
