@@ -5,6 +5,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Vujahday+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Waterfall&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap');
+
 
 /*VARIABLES*/
 .cartas-etnv {
@@ -164,7 +167,7 @@ b.querido {
 }
 
 .cartas-etnv:hover {
-    max-height: 100rem;
+    max-height: 3000rem;
     outline: 1px dashed var(--cicon);
     transition: 1s ease-in;
 }
@@ -219,6 +222,25 @@ b.querido {
 
 #xian p, #xian .notita {
     font-family: 'Waterfall';
+    font-size: 32px;
+    line-height: 22px;
+}
+
+#richie p, #richie .notita {
+    font-family: 'League Script';
+    font-size: 25px;
+    line-height: 23px;
+    font-weight: 200;
+}
+
+#yoonie p, #yoonie .notita {
+    font-family: 'Send Flowers';
+    font-size: 22px;
+    line-height: 20px;
+}
+
+#haru p, #haru .notita {
+    font-family: 'Send Flowers';
     font-size: 32px;
     line-height: 22px;
 }
