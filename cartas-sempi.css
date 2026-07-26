@@ -160,6 +160,10 @@ b.querido {
     text-underline-offset: 2px;
 }
 
+.day .carta-txt {
+    background: linear-gradient(180deg, transparent 0%, var(--bckg-3) 10%);
+}
+
 /*HOVER*/
 .cartas-etnv {
     max-height: 23em;
@@ -242,7 +246,7 @@ b.querido {
 
 #haru p, #haru .notita {
     font-family: 'Schoolbell';
-    font-size: 32px;
+    font-size: 28px;
     line-height: 22px;
 }
 
