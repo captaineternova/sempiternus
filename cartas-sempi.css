@@ -23,7 +23,7 @@
     width: 35rem;
     overflow: hidden;
     position: relative;
-    background-image: var(--fondo);
+    background-image: var(--fondo) !important;
     background-color: var(--acento);
     background-attachment: fixed;
     background-size: contain;
