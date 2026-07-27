@@ -161,7 +161,7 @@ b.querido {
     text-underline-offset: 2px;
 }
 
-.day .carta-txt {
+.day .cartas-etnv:hover .carta-txt {
     background: linear-gradient(180deg, transparent 0%, var(--bckg-3) 10%);
 }
 
@@ -210,6 +210,10 @@ b.querido {
 
 #sello {
     transition: 1s;
+}
+
+.carta-txt {
+    transition:1s
 }
 
 /*LETRAS PERSONALIZADAS*/
