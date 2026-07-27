@@ -162,7 +162,7 @@ b.querido {
 }
 
 .day .cartas-etnv:hover .carta-txt {
-    background: linear-gradient(180deg, transparent 0%, var(--bckg-3) 10%);
+    background: linear-gradient(180deg, transparent 5%, var(--bckg-3) 18%);
 }
 
 /*HOVER*/
