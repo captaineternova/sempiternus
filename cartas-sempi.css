@@ -26,7 +26,8 @@
     background-image: var(--fondo) !important;
     background-color: var(--acento);
     background-attachment: fixed;
-    background-size: cover;
+    background-size: auto;
+    background-position: center;
     background-blend-mode: multiply;
     outline: 1px dashed var(--acento);
     outline-offset: -8px;
@@ -147,10 +148,10 @@ b.querido {
 }
 
 .carta-txt p u {
-    text-decoration: underline wavy;
+    text-decoration: underline wavy !important;
     text-decoration-color: var(--acento);
     border-bottom: none !important;
-    font-weight:200;
+    font-weight:200 !important;
 }
 
 .carta-txt p text {
