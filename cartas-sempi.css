@@ -26,7 +26,7 @@
     background-image: var(--fondo) !important;
     background-color: var(--acento);
     background-attachment: fixed;
-    background-size: contain;
+    background-size: cover;
     background-blend-mode: multiply;
     outline: 1px dashed var(--acento);
     outline-offset: -8px;
@@ -235,7 +235,7 @@ b.querido {
     font-family: 'League Script';
     font-size: 22px;
     line-height: 23px;
-    font-weight: 400;
+    font-weight: 800;
 }
 
 #yoonie p, #yoonie .notita {
