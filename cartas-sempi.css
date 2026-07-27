@@ -149,7 +149,7 @@ b.querido {
 
 .carta-txt p u {
     text-decoration: underline wavy !important;
-    text-decoration-color: var(--acento);
+    text-decoration-color: var(--acento) !important;
     border-bottom: none !important;
     font-weight:200 !important;
 }
