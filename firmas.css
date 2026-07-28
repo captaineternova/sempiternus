@@ -731,3 +731,18 @@ cute {
 #p71502 .post-yn, #p75560 .post-yn, #p78857 .post-yn, #p79749 .post-yn, #p81774 .post-yn, 
 #p71407 .post-rl, #p72504 .post-rl, #p75257 .post-rl, #p76340 .post-rl, #p78445 .post-rl,
 #p76358 .post-hs, #p77775 .post-hs, #p77812 .post-hs { --acento:var(--yuu) !important; }
+
+/*ARREGLO CHILDHOOD RICHIE*/
+#p62552 .post-rl span {
+   visibility: hidden;
+}
+
+#p62552 .post-rl span:before {
+    content: "· 2006 ✦ Casa de los Lawrence ·";
+    visibility: visible !important;
+    background: var(--acento);
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-left: -10px;
+    display: inline-block;
+}
