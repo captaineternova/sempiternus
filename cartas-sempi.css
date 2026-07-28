@@ -154,6 +154,11 @@ b.querido {
     font-weight:200 !important;
 }
 
+#xian u, #yuki u {
+    text-decoration: underline solid !important;
+    text-decoration-color: var(--acento);
+}
+
 .carta-txt p text {
     text-decoration: underline dotted;
     text-decoration-color: var(--cicon);
@@ -234,11 +239,6 @@ b.querido {
     font-family: 'Waterfall';
     font-size: 32px;
     line-height: 22px;
-}
-
-#xian u {
-    text-decoration: underline solid !important;
-    text-decoration-color: var(--acento);
 }
 
 #richie p, #richie .notita {
