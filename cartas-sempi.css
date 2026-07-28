@@ -236,6 +236,10 @@ b.querido {
     line-height: 22px;
 }
 
+#xian u {
+    text-decoration: underline solid !important;
+}
+
 #richie p, #richie .notita {
     font-family: 'League Script';
     font-size: 22px;
