@@ -154,9 +154,9 @@ b.querido {
     font-weight:200 !important;
 }
 
-#xian u, #yuki u {
+#xian u, #yuki u, #richie u {
     text-decoration: underline solid !important;
-    text-decoration-color: var(--acento);
+    text-decoration-color: var(--acento) !important;
 }
 
 .carta-txt p text {
