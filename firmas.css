@@ -746,3 +746,11 @@ cute {
     margin-left: -10px;
     display: inline-block;
 }
+
+/*ARREGLO AVATAR HYUN CAROL OF THE BELLS*/
+#p59440 av>a[href="/u851"] img,
+#p61822 av>a[href="/u851"] img,
+#p63021 av>a[href="/u851"] img,
+#p65768 av>a[href="/u851"] img { 
+   content: url(https://i.postimg.cc/kXw7089K/Yuni-XMAXAva.png); 
+} 
