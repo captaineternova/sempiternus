@@ -13,11 +13,11 @@
 
 /*VARIABLES DE COLORES*/
 div, p {
-   --rin:#964b73 !important; 
-   --jun:#2d8091 !important;
-   --haru:#a76378 !important;
+   --rin:#964b73; 
+   --jun:#2d8091;
+   --haru:#a76378;
    --xian:#b45946;
-   --yuu:#8fa7b4 !important;
+   --yuu:#8fa7b4;
    --yoonie:#b88a99; 
 }
 
@@ -53,11 +53,11 @@ eternova ttl {font-weight: bolder;display: block;color: var(--accent);text-align
 /*AJUSTES COLORINES*/
 /*YOONIE RIN Y JUN*/
 .yoonie {--accent:var(--sami);}
-.yoonie u, .yoonie u i, .yoonie i u, #yf .yoonie u {color: var(--rin);} 
-.yoonie strike, .yoonie i strike, .yoonie strike i {color: var(--jun);}
+.yoonie u, .yoonie u i, .yoonie i u, #yf .yoonie u {color: var(--rin) !important;} 
+.yoonie strike, .yoonie i strike, .yoonie strike i {color: var(--jun) !important;}
 
 /*HARU Y YUKI*/
-#yf u, .yoonie #yf u {color:var(--haru);}
+#yf u, .yoonie #yf u {color:var(--haru) !important;}
 
 #yf strong, #yf i strong, #yf strong i,
 .post-rl #yf strong, .post-rl #yf i strong, .post-rl #yf strong i {
@@ -80,7 +80,7 @@ eternova ttl {font-weight: bolder;display: block;color: var(--accent);text-align
 {
    background: linear-gradient(to right, var(--rin), hsl(from var(--rin) calc(h - 30) calc(s - 15) l));
    background-clip: text;
-   color: transparent;
+   color: transparent !important;
 }
 
 
@@ -89,7 +89,7 @@ eternova ttl {font-weight: bolder;display: block;color: var(--accent);text-align
 {
    background: linear-gradient(to right, var(--jun), hsl(from var(--jun) calc(h - 30) calc(s + 15) l));
    background-clip: text;
-   color: transparent;
+   color: transparent !important;
 }
 
 .post-yn #yf u, .post-yn .yoonie #yf u,
@@ -98,7 +98,7 @@ eternova ttl {font-weight: bolder;display: block;color: var(--accent);text-align
 {
    background: linear-gradient(to right, var(--haru), hsl(from var(--haru) calc(h - 15) calc(s - 10) l));
    background-clip: text;
-   color: transparent;
+   color: transparent !important;
 }
 
 
