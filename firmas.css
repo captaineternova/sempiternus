@@ -13,11 +13,11 @@
 
 /*VARIABLES DE COLORES*/
 div, p {
-   --rin:#964b73; 
-   --jun:#2d8091;
-   --haru:#a76378;
+   --rin:#964b73 !important; 
+   --jun:#2d8091 !important;
+   --haru:#a76378 !important;
    --xian:#b45946;
-   --yuu:#8fa7b4;
+   --yuu:#8fa7b4 !important;
    --yoonie:#b88a99; 
 }
 
