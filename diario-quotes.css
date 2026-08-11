@@ -29,12 +29,6 @@ height: 0px;
 }
 
 /*FRASES ICÓNICAS*/
-.base-quotes h4 b, .diario h4 a {
-    text-align: right;
-    left: 0;
-    padding-right: 25px;
-}
-
 .base-quotes h4 b:before {
     content: "--------------- · ✦";
     display: inline-block;
@@ -63,6 +57,7 @@ height: 0px;
     z-index: 3;
     background: linear-gradient(15deg, var(--acentoo), var(--acento));
     background-clip: text !important;
+    color:transparent !important;
 }
 
 .base-quotes p i:before {
@@ -152,11 +147,11 @@ font-weight: 400;
 }
 
 .base-quotes h4 a {
+    font: 15px / 15px Noto Sans;
     font-weight: 200;
     text-transform: uppercase;
     z-index: 4;
-    background: var(--bg1) !important;
-    background-clip: text !important;
+    color: var(--bg1) !important;
     place-self: flex-end;
     width: 100%;
     text-align: right;
@@ -179,10 +174,10 @@ text-transform: uppercase;
 font-family:var(--font1);
 }
 
-.base-quotes strong, .base-quotes a, .base-quotes strong i, .base-quotes i strong {
--webkit-background-clip: text !important;
--webkit-text-fill-color: transparent !important;
-background: -webkit-linear-gradient(40deg, var(--acentoo), var(--acento));
+.base-quotes strong, .base-quotes a cita, .base-quotes strong i, .base-quotes i strong {
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    background: -webkit-linear-gradient(40deg, var(--acentoo), var(--acento));
 }
 
 #bit h5 {
@@ -193,11 +188,11 @@ font-size: 20px;
 
 #bit p {
     padding: 20px 20px;
-    width: 85%;
+    width: 90%;
     text-align: left;
     gap: 15px;
     font-family: 'Poppins';
-    margin-left: 50px;
+    margin-left: 45px;
     flex-wrap: wrap;
     display: flex;
     column-width: 250px;
@@ -221,28 +216,18 @@ font-size: 20px;
     break-inside: avoid;
 }
 
-#bit p a text {
-    overflow-y:auto;
-    overflow-x:none;
-}
-
 #bit a i {
-font: 13px/13px Poppins;
-background: var(--gr1) !important;
-background-clip: text !important;
-display: block;
+    font: 13px / 13px Poppins;
+    color: var(--gr1) !important;
+    background: none !important;
+    display: block;
+    overflow-y: auto;
 }
 
 #bit a br {display:none;}
 
-#bit a i:before {
-content: "»";
-display: inline-block;
-background: linear-gradient(15deg, var(--acentoo), var(--acento));
-background-clip: text !important;
-margin-left: 5px;
-margin-right: 5px;
-}
+#bit p i::-webkit-scrollbar-thumb {background:var(--acentoo) !important;width:0px !important;}
+#bit p i::-webkit-scrollbar {width:0px !important;}
 
 /*MODIFICACIONES PERSONALIZADAS*/
 .richie:before, .richie:after, .yuni:before, .yuni:after {
