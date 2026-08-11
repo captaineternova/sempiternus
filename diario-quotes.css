@@ -259,7 +259,8 @@ cita[s]:after {
 }
 
 cita[w]:after {
-    content: "\f762";
+    content: "\eca0";
+    font-family: 'cappuccicons' !important;
 }
 
 /*MODIFICACIONES PERSONALIZADAS*/
