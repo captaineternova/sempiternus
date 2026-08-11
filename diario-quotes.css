@@ -340,12 +340,10 @@ cita[w]:after {
     z-index: 2;
 }
 
-.yoon h4 a {
-    background: var(--accent);
-    width: fit-content;
-    margin-left: 450px;
-    z-index: 2;
+.yoon h4, .yuu h4 {
+    margin-bottom:20px;
 }
+
 
 /*XIRU*/
 .ruru:before, .ruru:after, .xian:before, .xian:after {
