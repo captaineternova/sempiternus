@@ -243,7 +243,7 @@ cita[s]:after {content: "\f586";} /*CARITA RISUEÑA*/
 cita[w]:after {content: "\eca0";} /*SPARKLES*/
 
 cita:after {
-    margin-left: 8em;
+    margin-left: 7.6em;
     border: 1px dotted var(--gr3);
     padding: 14px 10px;
     position: absolute;
