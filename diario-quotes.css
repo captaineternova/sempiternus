@@ -260,17 +260,14 @@ margin-right: 5px;
 }
 
 /*MODIFICACIONES PERSONALIZADAS*/
-.richie:after, .richie:before,
-.hyun:after, .hyun:before {
+.richie:before, .richie:after, .yuni:before, .yuni:after {
     clip-path: var(--ondas-richie);
 }
 
-.yoonie:after, .yoonie:before,
-.yuki:after, .yuki:before {
+.yoon:before, .yoon:after, .yuu:before, .yuu:after {
     clip-path: var(--ondas-yoonie);
 }
 
-.haru:after, .haru:before,
-.wuxian:after, .wuxian:before {
+.ruru:before, .ruru:after, .xian:before, .xian:after {
     clip-path: var(--ondas-haru);
 }
