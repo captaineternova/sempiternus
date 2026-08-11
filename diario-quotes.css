@@ -11,6 +11,8 @@
 --ondas-richie: polygon(100% 100%, 0% 100% , 0.00% 27.56%, 1.00% 27.76%, 2.00% 28.12%, 3.00% 28.62%, 4.00% 29.26%, 5.00% 30.04%, 6.00% 30.94%, 7.00% 31.95%, 8.00% 33.08%, 9.00% 34.30%, 10.00% 35.60%, 11.00% 36.97%, 12.00% 38.40%, 13.00% 39.86%, 14.00% 41.36%, 15.00% 42.87%, 16.00% 44.37%, 17.00% 45.85%, 18.00% 47.30%, 19.00% 48.71%, 20.00% 50.05%, 21.00% 51.31%, 22.00% 52.48%, 23.00% 53.56%, 24.00% 54.52%, 25.00% 55.36%, 26.00% 56.07%, 27.00% 56.64%, 28.00% 57.07%, 29.00% 57.36%, 30.00% 57.49%, 31.00% 57.47%, 32.00% 57.30%, 33.00% 56.98%, 34.00% 56.52%, 35.00% 55.91%, 36.00% 55.17%, 37.00% 54.30%, 38.00% 53.31%, 39.00% 52.21%, 40.00% 51.02%, 41.00% 49.74%, 42.00% 48.38%, 43.00% 46.97%, 44.00% 45.51%, 45.00% 44.02%, 46.00% 42.51%, 47.00% 41.00%, 48.00% 39.51%, 49.00% 38.05%, 50.00% 36.64%, 51.00% 35.28%, 52.00% 34.00%, 53.00% 32.80%, 54.00% 31.70%, 55.00% 30.71%, 56.00% 29.84%, 57.00% 29.10%, 58.00% 28.49%, 59.00% 28.02%, 60.00% 27.70%, 61.00% 27.53%, 62.00% 27.51%, 63.00% 27.64%, 64.00% 27.92%, 65.00% 28.35%, 66.00% 28.92%, 67.00% 29.63%, 68.00% 30.47%, 69.00% 31.43%, 70.00% 32.50%, 71.00% 33.67%, 72.00% 34.94%, 73.00% 36.27%, 74.00% 37.68%, 75.00% 39.13%, 76.00% 40.61%, 77.00% 42.11%, 78.00% 43.62%, 79.00% 45.12%, 80.00% 46.58%, 81.00% 48.01%, 82.00% 49.38%, 83.00% 50.69%, 84.00% 51.91%, 85.00% 53.03%, 86.00% 54.05%, 87.00% 54.95%, 88.00% 55.73%, 89.00% 56.37%, 90.00% 56.87%, 91.00% 57.23%, 92.00% 57.44%, 93.00% 57.50%, 94.00% 57.41%, 95.00% 57.16%, 96.00% 56.77%, 97.00% 56.23%, 98.00% 55.56%, 99.00% 54.75%, 100.00% 53.82%);
 --ondas-yoonie: path("M0,256L21.8,234.7C43.6,213,87,171,131,170.7C174.5,171,218,213,262,224C305.5,235,349,213,393,176C436.4,139,480,85,524,80C567.3,75,611,117,655,149.3C698.2,181,742,203,785,176C829.1,149,873,75,916,69.3C960,64,1004,128,1047,170.7C1090.9,213,1135,235,1178,208C1221.8,181,1265,107,1309,106.7C1352.7,107,1396,181,1418,218.7L1440,256L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z");
 --ondas-haru: polygon(100% 100%, 0% 100% , 0.00% 52.52%, 1.00% 51.35%, 2.00% 50.16%, 3.00% 48.98%, 4.00% 47.80%, 5.00% 46.63%, 6.00% 45.49%, 7.00% 44.38%, 8.00% 43.30%, 9.00% 42.27%, 10.00% 41.29%, 11.00% 40.37%, 12.00% 39.52%, 13.00% 38.73%, 14.00% 38.02%, 15.00% 37.39%, 16.00% 36.84%, 17.00% 36.38%, 18.00% 36.01%, 19.00% 35.74%, 20.00% 35.56%, 21.00% 35.47%, 22.00% 35.48%, 23.00% 35.59%, 24.00% 35.80%, 25.00% 36.10%, 26.00% 36.49%, 27.00% 36.98%, 28.00% 37.55%, 29.00% 38.20%, 30.00% 38.93%, 31.00% 39.74%, 32.00% 40.61%, 33.00% 41.55%, 34.00% 42.54%, 35.00% 43.58%, 36.00% 44.67%, 37.00% 45.79%, 38.00% 46.94%, 39.00% 48.11%, 40.00% 49.29%, 41.00% 50.48%, 42.00% 51.66%, 43.00% 52.83%, 44.00% 53.99%, 45.00% 55.11%, 46.00% 56.21%, 47.00% 57.26%, 48.00% 58.26%, 49.00% 59.21%, 50.00% 60.10%, 51.00% 60.92%, 52.00% 61.66%, 53.00% 62.33%, 54.00% 62.92%, 55.00% 63.42%, 56.00% 63.83%, 57.00% 64.15%, 58.00% 64.37%, 59.00% 64.50%, 60.00% 64.53%, 61.00% 64.47%, 62.00% 64.31%, 63.00% 64.05%, 64.00% 63.70%, 65.00% 63.26%, 66.00% 62.73%, 67.00% 62.11%, 68.00% 61.42%, 69.00% 60.64%, 70.00% 59.80%, 71.00% 58.89%, 72.00% 57.92%, 73.00% 56.90%, 74.00% 55.84%, 75.00% 54.73%, 76.00% 53.60%, 77.00% 52.43%, 78.00% 51.26%, 79.00% 50.07%, 80.00% 48.88%, 81.00% 47.71%, 82.00% 46.54%, 83.00% 45.40%, 84.00% 44.29%, 85.00% 43.22%, 86.00% 42.19%, 87.00% 41.22%, 88.00% 40.30%, 89.00% 39.45%, 90.00% 38.67%, 91.00% 37.97%, 92.00% 37.34%, 93.00% 36.80%, 94.00% 36.35%, 95.00% 35.99%, 96.00% 35.72%, 97.00% 35.55%, 98.00% 35.47%, 99.00% 35.49%, 100.00% 35.61%);
+--font1: Poppins;
+--font-richie: Noto Sans;    
 }
 
 /*OCULTAR ELEMENTOS*/ 
@@ -34,27 +36,17 @@ height: 0px;
 }
 
 .base-quotes h4 b:before {
-    content: "\f21e";
+    content: "--------------- · ✦";
     display: inline-block;
     position: absolute;
-    top: -52px;
-    left: 40px;
-    background: var(--bg2);
+    top: -40px;
+    left: -35px;
     padding: 40px 30px;
     border-radius: 100%;
-    color: var(--acento);
-    font-family: 'FontAwesome';
-}
-
-.base-quotes h4 a {
-    right: 0 !important;
-}
-
-.base-quotes p a {
-    width: 100% !important;
-    font-size: 15px !important;
-    position: relative !important;
-    text-align: center;
+    color: var(--gr4);
+    -webkit-text-stroke: 0;
+    font-weight: 300;
+    letter-spacing: -11px;
 }
 
 .base-quotes p i {
@@ -94,10 +86,6 @@ height: 0px;
     font-size: 15px !important;
     margin-bottom: 10px;
     line-height: 15px !important;
-}
-
-.base-quotes p {
-    margin-top: 125px !important;
 }
 
 .base-quotes {
@@ -148,7 +136,6 @@ background: var(--bg2);
 border-radius: 10px;
 margin: 0 auto;
 font-size: 10px;
-font-family: Poppins;
 width: 50%;
 text-align: center;
 font-weight: 400;
@@ -156,28 +143,26 @@ font-weight: 400;
 
 
 .base-quotes h4 {
-box-sizing: border-box;
-padding: 0px;
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding-bottom: 0px !important;
+    box-sizing: border-box;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0px !important;
+    width: 100%;
 }
 
 .base-quotes h4 a {
-font: 50px Noto Sans;
-font-weight: 800;
-text-transform: uppercase;
-position: absolute;
-right: 35%;
-top: 5px;
-background: linear-gradient(to left, var(--acentoo), var(--acento));
--webkit-background-clip: text !important;
-color: transparent !important;
-text-align: right;
-line-height: 172px;
-z-index: 4;
-text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.6);
+    font-weight: 200;
+    text-transform: uppercase;
+    z-index: 4;
+    background: var(--bg1) !important;
+    background-clip: text !important;
+    place-self: flex-end;
+    width: 100%;
+    text-align: right;
+    padding: 0 2rem;
+    letter-spacing: 4px;
+    margin-top: 70px;
 }
 
 .base-quotes h4 b {
@@ -191,22 +176,13 @@ font-weight: 900;
 -webkit-text-stroke: 1px var(--bg1);
 color: transparent !important;
 text-transform: uppercase;
+font-family:var(--font1);
 }
 
 .base-quotes strong, .base-quotes a, .base-quotes strong i, .base-quotes i strong {
 -webkit-background-clip: text !important;
 -webkit-text-fill-color: transparent !important;
 background: -webkit-linear-gradient(40deg, var(--acentoo), var(--acento));
-}
-
-#bit h4 b {
-font-size: 65px;
-}
-
-#bit h4 a {
-left: 0;
-top: -30px;
-right: 140px;
 }
 
 #bit h5 {
@@ -216,29 +192,38 @@ font-size: 20px;
 }
 
 #bit p {
-margin-top: 72px;
-padding: 50px 20px;
-width: 86%;
-text-align: left;
-column-gap: 10px;
-row-gap: 10px;
-font-family: 'Poppins';
-margin-left: 50px;
-flex-wrap: wrap;
+    padding: 20px 20px;
+    width: 85%;
+    text-align: left;
+    gap: 15px;
+    font-family: 'Poppins';
+    margin-left: 50px;
+    flex-wrap: wrap;
+    display: flex;
+    column-width: 250px;
+    column-gap: 16px;
+    margin-top: 100px;
 }
 
 #bit p br { display:none;}
 
 #bit p a {
-font-size: 15px;
-line-height: 15px;
-width: 300px;
-position: relative;
-height: auto;
-border-radius: 10px;
-padding: 22px 15px 22px;
-border: 1px dotted var(--gr3);
-/*flex: 1 1 auto;*/
+    font-size: 15px;
+    line-height: 15px;
+    width: 300px;
+    position: relative;
+    height: auto;
+    max-height: 12em;
+    border-radius: 10px;
+    padding: 22px 15px 22px;
+    border: 1px dotted var(--gr3);
+    flex: 1 1 auto;
+    break-inside: avoid;
+}
+
+#bit p a text {
+    overflow-y:auto;
+    overflow-x:none;
 }
 
 #bit a i {
@@ -270,4 +255,8 @@ margin-right: 5px;
 
 .ruru:before, .ruru:after, .xian:before, .xian:after {
     clip-path: var(--ondas-haru);
+}
+
+.richie h4 a {
+    font: 15px / 15px var(--font-richie);
 }
