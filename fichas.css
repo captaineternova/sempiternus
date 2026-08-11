@@ -1,7 +1,7 @@
 /*EDADES*/
-#edad-hyun:before {content: "29 años";}
-#edad-yuki:before {content: "32 años";}
-#edad-wuxian:before {content: "38 años";}
+#edad-hyun:before {content: "29"; margin-right:2px;}
+#edad-yuki:before {content: "32"; margin-right:2px;}
+#edad-wuxian:before {content: "38"; margin-right:2px;}
 
 
 /*MODIFICACIONES ESTÉTICAS*/
