@@ -1,3 +1,9 @@
+/*EDADES*/
+#edad-hyun:before {
+    content: "29 años";
+}
+
+
 .sempt-expd-datos.sinbr > div > span {color: var(--color-text);} 
 .sempt-expt-x::-webkit-scrollbar-thumb {background: var(--accent) !important;} 
 .expt-extradata {column-count:2;}
