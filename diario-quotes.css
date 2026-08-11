@@ -231,8 +231,12 @@ font-size: 20px;
 #bit p i::-webkit-scrollbar {width:0px !important;}
 
 /*REACCIONES*/
+cita[h]:after {content: "\f21e";} /*HEARTBEAT*/
+cita[b]:after {content: "\f7a9";} /*HEARTBROKEN*/
+cita[s]:after {content: "\f586";} /*CARITA RISUEÑA*/
+cita[w]:after {content: "\eca0";} /*SPARKLES*/
+
 cita:after {
-    font-family: 'FontAwesome';
     margin-left: 8em;
     border: 1px dotted var(--gr3);
     padding: 14px 10px;
@@ -246,21 +250,14 @@ cita:after {
     margin-top: 15px;
 }
 
-cita[h]:after {
-    content: "\f21e";
-}
-
-cita[b]:after {
-    content: "\f7a9";
-}
-
+cita[h]:after,
+cita[b]:after,
 cita[s]:after {
-    content: "\f586";
+    font-family: 'FontAwesome';
 }
 
 cita[w]:after {
-    content: "\eca0";
-    font-family: 'cappuccicons' !important;
+    font-family: 'cappuccicons';
 }
 
 /*MODIFICACIONES PERSONALIZADAS*/
