@@ -34,10 +34,10 @@ height: 0px;
     display: inline-block;
     position: absolute;
     top: -40px;
-    left: -35px;
+    left: -100%;
     padding: 40px 30px;
     border-radius: 100%;
-    color: var(--gr4);
+    color: var(--bg1);
     -webkit-text-stroke: 0;
     font-weight: 300;
     letter-spacing: -11px;
@@ -84,13 +84,13 @@ height: 0px;
 }
 
 .base-quotes {
-  width: 58em;
-margin: 0 auto;
-background: var(--bg3);
-border: 1px solid var(--gr3);
-border-radius: 20px;
-position: relative;
-overflow: hidden;
+    width: 70em;
+    margin: 0 auto;
+    background: var(--bg3);
+    border: 1px solid var(--gr3);
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
 }
 
 .base-quotes h5::-webkit-scrollbar {width:0px !important;}
@@ -163,7 +163,7 @@ font-weight: 400;
 .base-quotes h4 b {
 z-index: 3;
 position: absolute;
-top: 75px;
+top: 70px;
 font-size: 70px;
 right: 5%;
 line-height: 42px;
