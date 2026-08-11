@@ -198,6 +198,7 @@ font-size: 20px;
     column-width: 250px;
     column-gap: 16px;
     margin-top: 100px;
+    margin-bottom:-80px;
 }
 
 #bit p br { display:none;}
@@ -228,6 +229,38 @@ font-size: 20px;
 
 #bit p i::-webkit-scrollbar-thumb {background:var(--acentoo) !important;width:0px !important;}
 #bit p i::-webkit-scrollbar {width:0px !important;}
+
+/*REACCIONES*/
+cita:after {
+    font-family: 'FontAwesome';
+    margin-left: 8em;
+    border: 1px dotted var(--gr3);
+    padding: 14px 10px;
+    position: absolute;
+    z-index: 10;
+    background: linear-gradient(var(--acento), var(--acentoo));
+    background-clip: text;
+    border-radius: 100%;
+    left: 0;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+cita[h]:after {
+    content: "\f21e";
+}
+
+cita[b]:after {
+    content: "\f7a9";
+}
+
+cita[s]:after {
+    content: "\f586";
+}
+
+cita[w]:after {
+    content: "\f762";
+}
 
 /*MODIFICACIONES PERSONALIZADAS*/
 .richie:before, .richie:after, .yuni:before, .yuni:after {
