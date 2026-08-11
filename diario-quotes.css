@@ -239,6 +239,10 @@ cita {
     display: block;
 }
 
+#bit p a i {
+    height: 10rem !important;
+}
+
 /*REACCIONES*/
 cita[h]:after {content: "\f21e";} /*HEARTBEAT*/
 cita[b]:after {content: "\f7a9";} /*HEARTBROKEN*/
@@ -292,6 +296,7 @@ cita[w]:after {
 .yuni h4 a {
     line-height: 20px;
     margin-top: 52px;
+    font-family: var(--font-richie);
 }
 
 .yuni h4 b:before {
@@ -301,6 +306,7 @@ cita[w]:after {
 /*YUWOO*/
 .yoon:before, .yoon:after, .yuu:before, .yuu:after {
     clip-path: var(--ondas-yoonie);
+    margin-bottom: -120px;
 }
 
 .yuu h4 b, .yoon h4 b {
@@ -310,9 +316,73 @@ cita[w]:after {
     font-weight: 100;
 }
 
+.yuu h4 a, .yoon h4 a {
+    color: var(--bg1) !important;
+    padding: 5px 20px;
+    border-radius: 10px;
+    width: 57%;
+    margin-top: 25px;
+    text-align: right;
+}
+
+.yoon h4 b {
+    margin-right: -40px;
+}
+
+.yoon h4 b:before {
+    left: -48rem !important;
+}
+
+.yoon h4 a {
+    background: var(--accent);
+    width: fit-content;
+    margin-left: 450px;
+    z-index: 2;
+}
+
+.yoon h4 a {
+    background: var(--accent);
+    width: fit-content;
+    margin-left: 450px;
+    z-index: 2;
+}
 
 /*XIRU*/
 .ruru:before, .ruru:after, .xian:before, .xian:after {
     clip-path: var(--ondas-haru);
     margin-bottom: -120px;
+}
+
+.xian h4 b {
+    color: var(--bg1) !important;
+    font-family: var(--font-haru);
+    font-size: 90px;
+    letter-spacing: 8px;
+    margin-top: -25px;
+}
+
+.xian h4 b:before {
+    margin-left: -5rem;
+}
+
+.xian h4 a {
+    text-align: center;
+}
+
+.ruru h4 b {
+    font-family: 'Fira Sans';
+    margin-top: -48px;
+}
+
+.ruru h4 b {
+    color: var(--bg1) !important;
+}
+
+.ruru h4 b:before {
+    margin-left: 1rem;
+    margin-top: 35px;
+}
+
+.ruru h4 a {
+    margin-left: 5rem;
 }
