@@ -374,7 +374,7 @@ cita[w]:after {
     margin-top: -48px;
 }
 
-.ruru h4 b {
+.ruru h4 b:first-letter {
     color: var(--bg1) !important;
 }
 
