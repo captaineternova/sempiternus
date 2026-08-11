@@ -230,6 +230,12 @@ font-size: 20px;
 #bit p i::-webkit-scrollbar-thumb {background:var(--acentoo) !important;width:0px !important;}
 #bit p i::-webkit-scrollbar {width:0px !important;}
 
+cita {
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
 /*REACCIONES*/
 cita[h]:after {content: "\f21e";} /*HEARTBEAT*/
 cita[b]:after {content: "\f7a9";} /*HEARTBROKEN*/
