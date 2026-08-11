@@ -30,16 +30,16 @@ height: 0px;
 
 /*FRASES ICÓNICAS*/
 .base-quotes h4 b:before {
-    content: "--------------- · ✦";
+    content: "------------------------------- · ✦";
     display: inline-block;
     position: absolute;
     top: -40px;
-    left: -100%;
+    left: -46rem;
     padding: 40px 30px;
     border-radius: 100%;
     color: var(--bg1);
     -webkit-text-stroke: 0;
-    font-weight: 300;
+    font-weight: 200;
     letter-spacing: -11px;
 }
 
@@ -147,17 +147,16 @@ font-weight: 400;
 }
 
 .base-quotes h4 a {
-    font: 15px / 15px Noto Sans;
-    font-weight: 200;
+    font-weight: 300;
     text-transform: uppercase;
     z-index: 4;
     color: var(--bg1) !important;
     place-self: flex-end;
-    width: 100%;
+    width: 45%;
     text-align: right;
     padding: 0 2rem;
     letter-spacing: 4px;
-    margin-top: 70px;
+    margin-top: 55px;
 }
 
 .base-quotes h4 b {
@@ -280,5 +279,5 @@ cita[w]:after {
 }
 
 .richie h4 a {
-    font: 15px / 15px var(--font-richie);
+    font: 15px / 18px var(--font-richie);
 }
