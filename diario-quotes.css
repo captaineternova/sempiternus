@@ -199,18 +199,78 @@ text-transform: uppercase;
 background: -webkit-linear-gradient(40deg, var(--acentoo), var(--acento));
 }
 
+#bit h4 b {
+font-size: 65px;
+}
+
+#bit h4 a {
+left: 0;
+top: -30px;
+right: 140px;
+}
+
+#bit h5 {
+position: relative;
+margin-left: 0;
+font-size: 20px;
+}
+
+#bit p {
+margin-top: 72px;
+padding: 50px 20px;
+width: 86%;
+text-align: left;
+column-gap: 10px;
+row-gap: 10px;
+font-family: 'Poppins';
+margin-left: 50px;
+flex-wrap: wrap;
+}
+
+#bit p br { display:none;}
+
+#bit p a {
+font-size: 15px;
+line-height: 15px;
+width: 300px;
+position: relative;
+height: auto;
+border-radius: 10px;
+padding: 22px 15px 22px;
+border: 1px dotted var(--gr3);
+/*flex: 1 1 auto;*/
+}
+
+#bit a i {
+font: 13px/13px Poppins;
+background: var(--gr1) !important;
+background-clip: text !important;
+display: block;
+}
+
+#bit a br {display:none;}
+
+#bit a i:before {
+content: "»";
+display: inline-block;
+background: linear-gradient(15deg, var(--acentoo), var(--acento));
+background-clip: text !important;
+margin-left: 5px;
+margin-right: 5px;
+}
+
 /*MODIFICACIONES PERSONALIZADAS*/
-#richie:after, #richie:before,
-#hyun:after, #hyun:before {
+.richie:after, .richie:before,
+.hyun:after, .hyun:before {
     clip-path: var(--ondas-richie);
 }
 
-#yoonie:after, #yoonie:before,
-#yuki:after, #yuki:before {
+.yoonie:after, .yoonie:before,
+.yuki:after, .yuki:before {
     clip-path: var(--ondas-yoonie);
 }
 
-#haru:after, #haru:before,
-#wuxian:after, #wuxian:before {
+.haru:after, .haru:before,
+.wuxian:after, .wuxian:before {
     clip-path: var(--ondas-haru);
 }
