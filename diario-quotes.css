@@ -73,7 +73,7 @@ height: 0px;
 .base-quotes p i:after {
     content: "\f10e" !important;
     right: -15px;
-    margin-top: 20px;
+    bottom: -30px;
 }
 
 .base-quotes i br {
@@ -215,7 +215,7 @@ font-size: 20px;
     max-height: 12em;
     border-radius: 10px;
     padding: 22px 15px 22px;
-    border: 1px dotted var(--gr3);
+    border: 1px solid var(--bg1);
     flex: 1 1 auto;
     break-inside: avoid;
 }
@@ -250,8 +250,8 @@ cita[s]:after {content: "\f586";} /*CARITA RISUEÑA*/
 cita[w]:after {content: "\eca0";} /*SPARKLES*/
 
 cita:after {
-    margin-left: 7.6em;
-    border: 1px dotted var(--gr3);
+    margin-left: 198px;
+    border: 1px solid var(--bg1);
     padding: 14px 10px;
     position: absolute;
     z-index: 10;
