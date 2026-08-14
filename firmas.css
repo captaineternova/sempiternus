@@ -744,10 +744,24 @@ cute {
    content: url(https://i.postimg.cc/rF2q6T4z/Ava-XMAX.png); 
 } 
 
-/*ARREGLO AUDIOS*/
+/*AUDIOS*/
+.night .post-rl audio,
+.night .post-yn audio,
+.night .post-hs audio {
+    filter: invert(1) hue-rotate(180deg);
+}
 .post-rl audio, .post-yn audio, post-hs audio {
     margin: 0 auto;
     position: relative;
     display: block;
     background-color: transparent;
+    outline: 1px solid var(--acentoo);
+    border-radius: 40px;
+    outline-offset: 2px;
+}
+
+.night .ciudadanos .post-rl audio::-webkit-media-controls-play-button, 
+.night .ciudadanos .post-rl audio::-webkit-media-controls-mute-button, 
+.night .ciudadanos .post-rl audio::-webkit-media-controls-volume-slider {
+    filter: invert(30%) sepia(100%) hue-rotate(190deg) saturate(150);
 }
