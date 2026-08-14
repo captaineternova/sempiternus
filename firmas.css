@@ -743,3 +743,11 @@ cute {
 #p65768 av>a[href="/u851"] img { 
    content: url(https://i.postimg.cc/rF2q6T4z/Ava-XMAX.png); 
 } 
+
+/*ARREGLO AUDIOS*/
+.post-rl audio, .post-yn audio, post-hs audio {
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    background-color: transparent;
+}
