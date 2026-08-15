@@ -761,7 +761,7 @@ cute {
     position: relative;
     display: block;
     background-color: transparent;
-    outline: 1px solid var(--acentoo);
+    /*outline: 1px solid var(--acentoo);*/
     border-radius: 40px;
     outline-offset: 2px;
     opacity: 0.65;
@@ -789,6 +789,4 @@ cute {
 .night .sami .post-yn audio::-webkit-media-controls-mute-button, 
 .night .sami .post-yn audio::-webkit-media-controls-volume-slider {
     filter: invert(30%) sepia(600%) hue-rotate(250deg) saturate(200%);
-}
-
-    
+}    
