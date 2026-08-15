@@ -754,7 +754,7 @@ cute {
 .day .post-rl audio,
 .day .post-yn audio,
 .day .post-hs audio {
-    opacity: 0.65;
+    /*Características para el modo día*/
 }
 
 .post-rl audio, .post-yn audio, post-hs audio {
@@ -765,6 +765,7 @@ cute {
     outline: 1px solid var(--acentoo);
     border-radius: 40px;
     outline-offset: 2px;
+    opacity: 0.65;
 }
 
 .night .ciudadanos .post-rl audio::-webkit-media-controls-play-button, 
@@ -772,3 +773,23 @@ cute {
 .night .ciudadanos .post-rl audio::-webkit-media-controls-volume-slider {
     filter: invert(30%) sepia(100%) hue-rotate(190deg) saturate(150);
 }
+
+.night .celebridades .post-rl audio::-webkit-media-controls-play-button, 
+.night .celebridades .post-rl audio::-webkit-media-controls-mute-button, 
+.night .celebridades .post-rl audio::-webkit-media-controls-volume-slider,
+.night .celebridades .post-yn audio::-webkit-media-controls-play-button, 
+.night .celebridades .post-yn audio::-webkit-media-controls-mute-button, 
+.night .celebridades .post-yn audio::-webkit-media-controls-volume-slider {
+    filter: invert(30%) sepia(180%) hue-rotate(200deg) saturate(400%);
+}
+
+.night .sami .post-rl audio::-webkit-media-controls-play-button, 
+.night .sami .post-rl audio::-webkit-media-controls-mute-button, 
+.night .sami .post-rl audio::-webkit-media-controls-volume-slider,
+.night .sami .post-yn audio::-webkit-media-controls-play-button, 
+.night .sami .post-yn audio::-webkit-media-controls-mute-button, 
+.night .sami .post-yn audio::-webkit-media-controls-volume-slider {
+    filter: invert(30%) sepia(600%) hue-rotate(250deg) saturate(200%);
+}
+
+    
