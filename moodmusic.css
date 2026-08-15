@@ -10,15 +10,25 @@
 }
 
 .base-moodmusic audio {
-    filter: invert(1) hue-rotate(180deg);
     margin: 0 auto;
     position: absolute;
     display: block;
     background-color: transparent;
     border-radius: 40px;
     outline-offset: 2px;
-    bottom: 145px;
-    left: 12rem;
-    box-shadow: 0px 0px 5px;
-    width: 400px;
+    bottom: 20px;
+    left: 330px;
+    width: 142px;
+}
+
+#riunie audio {
+   mix-blend-mode: darken;
+   left: 250px;
+   width: 300px;
+}
+
+#yuwoo audio {
+    filter: invert(1) hue-rotate(180deg);
+    mix-blend-mode: lighten;
+    opacity: 0.7;
 }
