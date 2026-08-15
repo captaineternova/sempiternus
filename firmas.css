@@ -769,24 +769,36 @@ cute {
 
 .night .ciudadanos .post-rl audio::-webkit-media-controls-play-button, 
 .night .ciudadanos .post-rl audio::-webkit-media-controls-mute-button, 
-.night .ciudadanos .post-rl audio::-webkit-media-controls-volume-slider {
+.night .ciudadanos .post-rl audio::-webkit-media-controls-volume-slider,
+.night .ciudadanos .post-rl audio::-webkit-media-controls-timeline {
     filter: invert(30%) sepia(100%) hue-rotate(190deg) saturate(150);
 }
 
-.night .celebridades .post-rl audio::-webkit-media-controls-play-button, 
-.night .celebridades .post-rl audio::-webkit-media-controls-mute-button, 
-.night .celebridades .post-rl audio::-webkit-media-controls-volume-slider,
-.night .celebridades .post-yn audio::-webkit-media-controls-play-button, 
-.night .celebridades .post-yn audio::-webkit-media-controls-mute-button, 
-.night .celebridades .post-yn audio::-webkit-media-controls-volume-slider {
+.day .ciudadanos .post-rl audio::-webkit-media-controls-play-button, 
+.day .ciudadanos .post-rl audio::-webkit-media-controls-mute-button, 
+.day .ciudadanos .post-rl audio::-webkit-media-controls-volume-slider,
+.day .ciudadanos .post-rl audio::-webkit-media-controls-timeline {
+    filter: invert(30%) sepia(100%) hue-rotate(190deg) saturate(5);
+}
+
+.celebridades .post-rl audio::-webkit-media-controls-play-button, 
+.celebridades .post-rl audio::-webkit-media-controls-mute-button, 
+.celebridades .post-rl audio::-webkit-media-controls-volume-slider,
+.celebridades .post-rl audio::-webkit-media-controls-timeline,
+.celebridades .post-yn audio::-webkit-media-controls-play-button, 
+.celebridades .post-yn audio::-webkit-media-controls-mute-button, 
+.celebridades .post-yn audio::-webkit-media-controls-volume-slider,
+.celebridades .post-yn audio::-webkit-media-controls-timeline {
     filter: invert(30%) sepia(180%) hue-rotate(200deg) saturate(400%);
 }
 
-.night .sami .post-rl audio::-webkit-media-controls-play-button, 
-.night .sami .post-rl audio::-webkit-media-controls-mute-button, 
-.night .sami .post-rl audio::-webkit-media-controls-volume-slider,
-.night .sami .post-yn audio::-webkit-media-controls-play-button, 
-.night .sami .post-yn audio::-webkit-media-controls-mute-button, 
-.night .sami .post-yn audio::-webkit-media-controls-volume-slider {
+.sami .post-rl audio::-webkit-media-controls-play-button, 
+.sami .post-rl audio::-webkit-media-controls-mute-button, 
+.sami .post-rl audio::-webkit-media-controls-volume-slider,
+.sami .post-rl audio::-webkit-media-controls-timeline,
+.sami .post-yn audio::-webkit-media-controls-play-button, 
+.sami .post-yn audio::-webkit-media-controls-mute-button, 
+.sami .post-yn audio::-webkit-media-controls-volume-slider,
+.sami .post-yn audio::-webkit-media-controls-timeline,{
     filter: invert(30%) sepia(600%) hue-rotate(250deg) saturate(200%);
 }    
