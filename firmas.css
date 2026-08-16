@@ -283,7 +283,7 @@ color:var(--wt1);
 
 .post-rl p i {color:var(--accent);} 
 
-.post-rl r {
+.post-rl quote {
 padding: 5px 10px;
 margin: 20px 0 -10px;
 font-size: 10px;
@@ -356,9 +356,9 @@ margin: 0px !important;
 .post-yn h5 {position: absolute;z-index: 2;left: 22%;padding: 5px 15px;text-transform: uppercase;letter-spacing: 2px;bottom: 20px;background: var(--bg3);border-radius: 10px;margin: 0 auto;font-size: 10px;font-family: Poppins;width: 50%;text-align: center;font-weight:400;}
 .post-yn s {text-decoration-color:var(--acentoo);}
 
-.post-yn r {
+.post-yn quote {
 padding: 5px 10px;
-margin: 20px 0 -10px;
+margin: 20px 10px -10px;
 font-size: 10px;
 text-align: right;
 width: 100%;
@@ -458,7 +458,7 @@ color: var(--gr4);
 font-size: 12px;
 }
 
-.post-hs r {
+.post-hs quote {
 padding: 5px 10px;
 margin: 20px 0 -10px;
 font-size: 10px;
