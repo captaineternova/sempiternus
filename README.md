@@ -1,2 +1,2 @@
-# sempiternus
+# Sempiternus
 Tablillas para Sempiternus RPG
