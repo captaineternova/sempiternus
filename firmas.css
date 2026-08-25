@@ -183,7 +183,7 @@ div#preview .content {
 --g8:var(--pesca);  
 }
 
-/*HIDE*/
+/*ELEMENTOS GENERALES*/
 .post-rl .codebox.hidecode dd i, .post-yn .codebox.hidecode dd i, .post-hs .codebox.hidecode dd i {
 color: var(--accent);
 }
@@ -213,7 +213,12 @@ border-radius: 10px;
 background:var(--bg2);
 }
 
-.post-yn quote { width: 90%; }
+.post-yn quote { 
+    margin-left: 30px;
+    line-height: 12px;
+    width: 80%;
+    padding: 15px;
+}
 
 
 /*RICHARD*/
