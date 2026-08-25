@@ -220,6 +220,10 @@ background:var(--bg2);
     padding: 15px;
 }
 
+.post-rl quote[c], .post-yn quote[c], .post-hs quote[c] {
+   text-align:justify;
+}
+
 
 /*RICHARD*/
 .post-rl {
