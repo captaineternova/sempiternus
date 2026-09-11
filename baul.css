@@ -649,7 +649,7 @@ background-clip: text !important;
 
 #ok b:after { 
 content: "\f00c"; 
-font-family: 'FontAwesome'; 
+font-family: 'Font Awesome 6 Pro', 'Font Awesome 5 Pro'; 
 font-size: 20px; 
 color: var(--accep) !important; 
 } 
@@ -682,7 +682,7 @@ border-color: var(--gr3) !important;
 
 .med-au i:before {font-size: 50px !important;position: relative;} 
 .med-au i {
-    font-family: 'FontAwesome';
+    font-family: 'Font Awesome 6 Pro', 'Font Awesome 5 Pro';
     display: inline-block;
     font-size: 100px;
     width: 150px;
