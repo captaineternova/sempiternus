@@ -1188,7 +1188,7 @@ background: var(--bg2);
 }
 
 #apto .imas:hover::before {
-  opacity:0;
+  display:none;
   transition:1s;
 }
 
