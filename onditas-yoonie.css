@@ -1187,7 +1187,7 @@ background: var(--bg2);
     align-items: center;
 }
 
-#apto .imas:hover::before {
+.imas:hover::before {
   display:none;
   transition:1s;
 }
