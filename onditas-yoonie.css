@@ -1188,8 +1188,14 @@ background: var(--bg2);
 }
 
 .imas:hover::before {
-  display:none;
+  opacity:0;
   transition:1s;
+  z-index:1;
+}
+
+.imas:hover img {
+    position: relative;
+    z-index: 3;
 }
 
 #apto .moodboard {
@@ -1234,4 +1240,9 @@ background: var(--bg2);
 
 #apto .imas:nth-of-type(4), #apto .imas:nth-of-type(9) {
     width: 50.8rem !important;
+    height: 25rem;
+}
+
+#apto .imas:nth-of-type(2), #apto .imas:nth-of-type(3) {
+    height: 18rem;
 }
