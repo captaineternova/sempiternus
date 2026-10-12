@@ -139,8 +139,8 @@ div#preview .content {
 }
 
 .eternova-fb .codebox img {
-    width: 50%;
-    height: auto;
+    max-height: 100px;
+    width: auto;
 }
 
 .eternova-fb .spoiler_content {
