@@ -29,11 +29,11 @@ eternova sprd, sprd {color:var(--accent);display:block;margin:10px auto;text-ali
 eternova ttl {font-weight: bolder;display: block;color: var(--accent);text-align: right;margin-bottom: 10px;font-size: 1.1rem;}
 
 
-/*HYUN*/.celebridades eternova sprd:before, .pj-hyun-dahl sprd:before, .pj-yoonie-fuyuhara sprd:before {content:"—·⋆ ʚ☆ɞ ⋆·—";}
-/*YUKI*/.sami eternova sprd:before, .pj-yuki-fuyuhara sprd:before {content:"-·✦ ☾⁺₊ ✦·—";}
-/*XIAN*/.empresarios eternova sprd:before, .pj-cheng-wuxian sprd:before {content:"—··⬩ ✧ ⬩··—";}
-/*RICHIE*/.ciudadanos eternova sprd:before, .pj-richard-lawrence sprd:before {content:"—·⋆ ✦ ⋆·—";}
-/*HARU*/.sanidad eternova sprd:before, .pj-haru-stormgaard sprd:before {content:"-·✧ ⚞^. .^⚟ ✧·—";}
+/*HYUN*/.celebridades sprd:before, .pj-hyun-dahl sprd:before, .pj-yoonie-fuyuhara sprd:before {content:"—·⋆ ʚ☆ɞ ⋆·—";}
+/*YUKI*/.sami sprd:before, .pj-yuki-fuyuhara sprd:before {content:"-·✦ ☾⁺₊ ✦·—";}
+/*XIAN*/.empresarios sprd:before, .pj-cheng-wuxian sprd:before {content:"—··⬩ ✧ ⬩··—";}
+/*RICHIE*/.ciudadanos sprd:before, .pj-richard-lawrence sprd:before {content:"—·⋆ ✦ ⋆·—";}
+/*HARU*/.sanidad sprd:before, .pj-haru-stormgaard sprd:before {content:"-·✧ ⚞^. .^⚟ ✧·—";}
 
 
 /*COLOR HYUN*/.hyundahl {--acentf:#444e62;} 
@@ -198,7 +198,7 @@ font-family: 'Poppins';
 
 .post-rl dl.codebox.hidecode, .post-yn dl.codebox.hidecode, .post-hs dl.codebox.hidecode {
 font-size: 14px;
-margin-top: 65px;
+margin: 80px 20px 10px;
 display: block;
 text-align: justify;
 }
