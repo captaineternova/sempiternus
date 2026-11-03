@@ -198,7 +198,7 @@ font-family: 'Poppins';
 
 .post-rl dl.codebox.hidecode, .post-yn dl.codebox.hidecode, .post-hs dl.codebox.hidecode {
 font-size: 14px;
-margin: 80px 20px 10px;
+margin: 80px 22px 0px;
 display: block;
 text-align: justify;
 }
