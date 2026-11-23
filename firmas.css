@@ -27,7 +27,7 @@ eternova div {display:block;margin:2em;text-align:justify;font-size: 1.1rem;}
 eternova div i {color: var(--accent)}
 eternova sprd, sprd {color:var(--accent);display:block;margin:10px auto;text-align:center;font-size:12px;}
 eternova ttl {font-weight: bolder;display: block;color: var(--accent);text-align: right;margin-bottom: 10px;font-size: 1.1rem;}
-
+eternova ttl img {display:none;}
 
 /*HYUN*/.celebridades sprd:before, .pj-hyun-dahl sprd:before, .pj-yoonie-fuyuhara sprd:before {content:"—·⋆ ʚ☆ɞ ⋆·—";}
 /*YUKI*/.sami sprd:before, .pj-yuki-fuyuhara sprd:before {content:"-·✦ ☾⁺₊ ✦·—";}
@@ -784,3 +784,4 @@ cute {
 .sami .post-yn audio::-webkit-media-controls-timeline,{
     filter: invert(30%) sepia(600%) hue-rotate(250deg) saturate(200%);
 }    
+
