@@ -203,6 +203,8 @@ display: block;
 text-align: justify;
 }
 
+.post-yn dl.codebox.hidecode {margin-top:85px !important;}
+
 .post-rl quote, .post-yn quote, .post-hs quote {
 padding: 5px 10px;
 margin: 20px 0 -10px;
