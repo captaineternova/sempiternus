@@ -352,7 +352,7 @@ margin: 0px !important;
 
 .post-yn h4 {box-sizing: border-box;padding: 30px;display: flex;justify-content: space-between;align-items: center;border-bottom: 1px dashed var(--gr4);} 
 
-.post-yn p {box-sizing: border-box;padding: 25px;text-align: justify;hyphens: auto;font-size:14px;}
+.post-yn p {box-sizing: border-box;padding: 25px;text-align: justify;hyphens: auto;font-size:14px;margin-bottom:10px;}
 
 .post-yn strong, .post-yn a, .post-yn strong i, .post-yn i strong {-webkit-background-clip: text !important;-webkit-text-fill-color: transparent !important;background: -webkit-linear-gradient(60deg,var(--acentoo), var(--acento));} 
 .post-yn p {font-family: Poppins;text-align: justify;padding: 30px;line-height: 18px;margin-bottom: -180px;} 
